@@ -173,7 +173,7 @@ footer{position: relative;}
 
 
 /* PERSPECTIVE HOVER */
- .perspective-box { position: relative; display:inline-block; width:100%; margin: 5px; cursor: pointer; transform: perspective(600px) translate3d(0, 0, 0);   backface-visiblity:none;  transform-style: preserve-3d;}	
+ .perspective-box { position: relative; display:inline-block; width:100%; margin: 5px; cursor: pointer; transform: perspective(600px) translate3d(0, 0, 0); backface-visiblity:none;  transform-style: preserve-3d;}	
 .perspective-box img { width:100%; float: left;}
 .perspective-box:hover { box-shadow: 0 66px 75px -10px rgba(0,0,0,.3);  transform-style: preserve-3d; z-index:20; }
 
@@ -532,7 +532,7 @@ footer{position: relative;}
 .footer .social-media{ width: 100%; float: left; display: none; text-align: center; margin-bottom: 20px; padding: 0;}
 .footer .social-media li{display: inline-block; margin: 0 10px; list-style: none;}
 .footer .social-media li a{ float: left; font-size: 12px; font-weight: 600; color: #fff;}
-.footer .social-media li a:hover{text-decoration: none; color: #f50c1a;}}
+.footer .social-media li a:hover{text-decoration: none; color: #f50c1a;}
 .footer h4{font-weight: 300; letter-spacing: -1px; font-size: 2em;}
 .footer h2{ font-family: "Fjalla One"; text-transform: uppercase; font-size: 4em; margin-bottom: 30px; padding: 0 10%;}
 .footer .btn-contact{height: 60px; line-height: 58px; display: inline-block; border: 1px solid rgba(255,255,255,0.2); padding: 0 40px; font-size: 11px; font-weight: 700; color: #fff; margin-bottom: 30px; overflow: hidden;}
