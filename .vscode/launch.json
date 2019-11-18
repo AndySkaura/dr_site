@@ -12,6 +12,14 @@
             "file": "${workspaceRoot}/intelligentFactory.html",
             "webRoot": "${workspaceFolder}",
             "sourceMaps": true
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "智能物流",
+            "file": "${workspaceRoot}/intelligentLogistics.html",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true
         }
     ]
 }
