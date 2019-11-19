@@ -28,6 +28,14 @@
             "file": "${workspaceRoot}/industrialInternet.html",
             "webRoot": "${workspaceFolder}",
             "sourceMaps": true
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "关于我们",
+            "file": "${workspaceRoot}/aboutUs.html",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true
         }
     ]
 }

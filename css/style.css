@@ -633,6 +633,8 @@ footer{position: relative;}
 .scroll-down span::before{ position: absolute; top: 0px; left: 50%; margin-left: -0.5px; width: 1px; height: 70px; background: #fff; content:"";}
 
 
+.about-us-int-hero{background-image: url('../images/aboutUs/img_2.png');padding-top: 25%; background-repeat: no-repeat;background-position-x: center;background-position-y: center;background-size: contain;}
+
 
 
 /* RESPONSIVE MEDIUM  FIXES */
@@ -718,7 +720,8 @@ footer{position: relative;}
 	.footer h2{font-size: 3em; padding: 0;}
 	.footer .social-media{display: block;}
 	.footer .footer-bar span{ width: 100%; text-align: center;}
-
+	
+	
 }
 
 
