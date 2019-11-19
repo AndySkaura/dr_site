@@ -20,6 +20,14 @@
             "file": "${workspaceRoot}/intelligentLogistics.html",
             "webRoot": "${workspaceFolder}",
             "sourceMaps": true
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "产业互联网",
+            "file": "${workspaceRoot}/industrialInternet.html",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true
         }
     ]
 }
