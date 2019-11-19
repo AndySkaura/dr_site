@@ -636,7 +636,19 @@ footer{position: relative;}
 .about-us-int-hero{background-image: url('../images/aboutUs/img_2.png');padding-top: 25%; background-repeat: no-repeat;background-position-x: center;background-position-y: center;background-size: contain;}
 .aboutUscontent h2{margin:50px 0 50px 0;}
 .aboutUscontent p{line-height: 40px;font-size: larger;font-weight: lighter;color: #686868;}
-.aboutUsContent1{background-image: url('../images//aboutUs/img_1.png');background-repeat: no-repeat;}
+.aboutUsContent1{background-image: url('../images//aboutUs/img_1.png');background-repeat: no-repeat;justify-content: space-between;display: flex;width: 100%;margin-top: 200px;}
+.aboutUsContent1 .descBox{width: 105px;color:white ; margin: 10px 100px 10px 100px;display: flex;flex-direction: row;flex-wrap: wrap;text-align: center;}
+.aboutUsContent1 .descBox div:nth-child(1){font-size:60px;font-family: initial;}
+.aboutUsContent1 .descBox div:nth-child(2){font-size:25px;align-self:flex-end}
+.aboutUsContent1 .descBox div:nth-child(3){font-size:25px;width: 100%;}
+.aboutUsContent2 .positionBox{width: 30%;text-align: center; line-height: 10px;}
+.aboutUsContent2 .positionBox p{width: 100%;color: #686868;}
+.aboutUsContent2 .positionBox h2{width: 100%;margin:  20px 0 20px 0;}
+
+
+
+
+
 
 /* RESPONSIVE MEDIUM  FIXES */
 @media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
