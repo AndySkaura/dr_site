@@ -238,18 +238,14 @@ footer{position: relative;}
 
 
 /* SLIDER BUTTONS */
-.slider .swiper-container .swiper-button-prev{ width: 40px; height: 26px; float: left; right: 200px; left: auto; top: 50%; z-index: 6; background: none; overflow: hidden; text-align: right;}
+.slider .swiper-container .swiper-button-prev{ width: 40px; height: 26px; float: left; left: 100px; right: auto; top: 50%; z-index: 6; background: none; overflow: hidden; text-align: right;}
 .slider .swiper-container .swiper-button-prev img{height: 26px;}
 .slider .swiper-container .swiper-button-prev span{width: 100%; float: left; line-height: 26px; font-weight: 500; color: #fff;}
-.slider .swiper-container .swiper-button-prev:hover img{transform: translateY(-100%);}
-.slider .swiper-container .swiper-button-prev:hover span{transform: translateY(-100%);}
 .slider .swiper-container .swiper-button-prev *{-webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease; -ms-transform:all 0.4s ease; transition: all 0.4s ease; }
-.slider .swiper-container .swiper-button-next{ width: 40px; height: 26px; float: left; right: 100px; left: auto; top: 50%; z-index: 6; background: none; overflow: hidden;}
+.slider .swiper-container .swiper-button-next{ width: 40px; height: 26px; float: left; right:100px; left: auto; top: 50%; z-index: 6; background: none; overflow: hidden;}
 .slider .swiper-container .swiper-button-line{ width: 40px; height: 2px; background: #fff; position: absolute; right: 150px; top: 50%; z-index: 2; margin-top: -10px;}
 .slider .swiper-container .swiper-button-next img{height: 26px;}
 .slider .swiper-container .swiper-button-next span{width: 100%; float: left; line-height: 26px; font-weight: 500; color: #fff;}
-.slider .swiper-container .swiper-button-next:hover img{transform: translateY(-100%);}
-.slider .swiper-container .swiper-button-next:hover span{transform: translateY(-100%);}
 .slider .swiper-container .swiper-button-next *{ -webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease; -ms-transform:all 0.4s ease; transition: all 0.4s ease; }
 
 
@@ -644,6 +640,11 @@ footer{position: relative;}
 .aboutUsContent2 .positionBox{width: 30%;text-align: center; line-height: 10px;}
 .aboutUsContent2 .positionBox p{width: 100%;color: #686868;}
 .aboutUsContent2 .positionBox h2{width: 100%;margin:  20px 0 20px 0;}
+.aboutUsContent2 .positionBox div a:link { color:#686868 ; text-decoration:none;}
+.aboutUsContent2 .positionBox div a:visited { text-decoration:none;color: #686868;}
+.aboutUsContent2 .positionBox div a:hover { text-decoration:none;color: #F50C19;}
+
+
 
 
 
