@@ -32,8 +32,24 @@
         {
             "type": "chrome",
             "request": "launch",
+            "name": "智慧工地",
+            "file": "${workspaceRoot}/IntelligentConstruction.html",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
             "name": "关于我们",
             "file": "${workspaceRoot}/aboutUs.html",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "showcase",
+            "file": "${workspaceRoot}/showcase.html",
             "webRoot": "${workspaceFolder}",
             "sourceMaps": true
         }

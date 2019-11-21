@@ -644,12 +644,21 @@ footer{position: relative;}
 .aboutUsContent2 .positionBox div a:visited { text-decoration:none;color: #686868;}
 .aboutUsContent2 .positionBox div a:hover { text-decoration:none;color: #F50C19;}
 
+.container .row .construcTitle{margin: 100px 0 100px 0;z-index: 1;}
+.container .row .construcText .construcText-img{position: absolute;left: 28%;top: 6%;}
+.container .row .construcText .construcText-text{position: absolute;top: 10%;margin-left: 2%; display: flex;flex-direction: row;flex-wrap: wrap;width: 25.5rem;justify-content: space-between;align-items: center;} 
+.container .row .construcText .construcText-text p{font-size: x-large}
+.container .row .construcText .construcText-text p span{font-size: xx-large;font-weight: bold}
+.container .row .construcText .construcText-text ul{list-style: none;width: auto;line-height: 2rem;font-size: medium;color: #5a5959;}
+.container .row .construcText .construcText-text li span{font-size: large;font-weight: bold;color: #000;}
 
-
-
-
-
-
+.container .construcBox2{display: flex;flex-direction: column;text-align: center;}
+.container .construcBox2 .title h2{font-weight: bolder;}
+.container .construcBox2 .iconBox{display:flex;flex-direction: row;flex-wrap: wrap;justify-content: space-between;}
+.container .construcBox2 .iconBox .iconBoxItem{margin:5rem 2rem 5rem 2rem;}
+.container .construcBox2 .iconBox .iconBoxItem p{font-weight: lighter; margin: 1rem;font-size: medium;color: #5a5959;}
+.container .construcBox3 .title h2{font-weight: bolder;}
+.container .construcBox3 .title{width: 100%; text-align: center;margin-bottom: 5rem;}
 
 /* RESPONSIVE MEDIUM  FIXES */
 @media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
