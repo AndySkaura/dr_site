@@ -335,7 +335,7 @@
     station.push(["中建二局洛阳机械有限公司", 112.433452, 34.707332])
     station.push(["陕西新意达混凝土有限公司", 109.74364, 34.485322])
 
-    map.centerAndZoom("银川", 5);
+    map.centerAndZoom("银川", 6.5);
     for (var i = 0; i < station.length; i++) {
         var point = new BMap.Point(station[i][1], station[i][2]);
 
@@ -344,5 +344,11 @@
         //marker.setLabel(lable);
         map.addOverlay(marker);
     }
+    var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});// 左上角，添加比例尺
+	var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件
+    var top_right_navigation = new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL});
+    map.addControl(top_left_control);        
+		map.addControl(top_left_navigation);     
+		map.addControl(top_right_navigation);   
     map.enableScrollWheelZoom(true);
 </script>
