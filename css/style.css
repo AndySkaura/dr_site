@@ -661,6 +661,17 @@ footer{position: relative;}
 .container .construcBox3 .title h2{font-weight: bolder;}
 .container .construcBox3 .title{width: 100%; text-align: center;margin-bottom: 5rem;}
 
+.solution-int-hero{background-image: url('../images/solution/img_solutionBg.png');padding-top: 25%; background-repeat: no-repeat;background-position-x: center;background-position-y: center;background-size: contain;}
+.solution-content{background: #fff0;}
+.solution-box{padding-bottom: 2%; margin-bottom: 5%; background: #fff;border-radius: 10px;display: flex;flex-direction: row;flex-wrap: wrap;}
+.solution-container{max-width: 1500px;}
+.solution-text-box{padding-left: 2%; width: 65%;}
+.solution-text-box h2{text-align: left; font-weight: bold;}
+.solution-text-box .solution-text-bottom{position: relative;bottom: -12%;margin-bottom: 0; display: flex;flex-direction: row;justify-content: space-between;}
+.solution-text-box .solution-text-box-text{height: 25%; text-align: left; font-size: x-large;line-height: 40px;}
+.solution-box img{margin: -2% 0 0 3%;}
+.solution-text-box .solution-text-bottom span{width:25%;color: #9e9d9d;font-size: small;}
+
 /* RESPONSIVE MEDIUM  FIXES */
 @media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
 	.header{padding: 30px 60px;}
@@ -702,7 +713,11 @@ footer{position: relative;}
 	.justify-content-md-center .descHNT{width:100%}
 	.internet-chooseBox .imgIconLeft1:first-child{width: 100%;}
 	.internet-chooseBox .flexBox .imgIcon1 {width: 50%}
-
+	.solution-box img{margin: 0 0 0 0;}
+	.solution-text-box{width:100%}
+	.solution-text-box .solution-text-bottom span {width:50%}
+	.solution-text-box .solution-text-box-text{height: auto;}
+	.solution-text-box .solution-text-bottom{bottom: auto;}
 }
 
 
