@@ -68,6 +68,14 @@
             "file": "${workspaceRoot}/showcase.html",
             "webRoot": "${workspaceFolder}",
             "sourceMaps": true
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "百度MAP",
+            "file": "${workspaceRoot}/map.html",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true
         }
     ]
 }
