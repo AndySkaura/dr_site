@@ -324,7 +324,7 @@
     station.push(["南京江北新区混凝土有限公司", 118.694176, 32.199537])
     station.push(["重庆科凯新型建材有限公司", 106.799739, 29.696494])
 
-    station.push(["中建商品混凝土云南有限公司（大渔）",102.646345, 25.031162])
+    station.push(["中建商品混凝土云南有限公司（大渔）", 102.646345, 25.031162])
 
     station.push(["青岛源盛泰建材有限公司", 120.401026, 36.198604])
     station.push(["南京双马混凝土制品有限公司", 118.591413, 32.151624])
@@ -344,11 +344,24 @@
         //marker.setLabel(lable);
         map.addOverlay(marker);
     }
-    var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});// 左上角，添加比例尺
-	 var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件
+    var top_left_control = new BMap.ScaleControl({ anchor: BMAP_ANCHOR_TOP_LEFT });// 左上角，添加比例尺
+    var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件
     // var top_right_navigation = new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL});
-    map.addControl(top_left_control);        
-     map.addControl(top_left_navigation);     
-		// map.addControl(top_right_navigation);   
+    map.addControl(top_left_control);
+    map.addControl(top_left_navigation);
+    // map.addControl(top_right_navigation); 
+
+    var polyline = new BMap.Polyline([
+        new BMap.Point(58,33.895683),
+        new BMap.Point(130, 33.895683),
+    ], { strokeColor: "blue", strokeWeight: 0.5, strokeOpacity: 1});
+    map.addOverlay(polyline);
+    var polyline1 = new BMap.Polyline([
+        new BMap.Point(108.597746,50),
+        new BMap.Point(108.597746,9.195329),
+    ], { strokeColor: "blue", strokeWeight: 0.5, strokeOpacity: 1 });
+    map.addOverlay(polyline1);
+
     map.enableScrollWheelZoom(true);
+
 </script>
