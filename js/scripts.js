@@ -158,6 +158,10 @@
 		},
 	});
 
+	$(".slider").css("height",$(window).width()*(970/1900)+"px");
+	$(window).resize(function () {
+		$(".slider").css("height",$(window).width()*(970/1900)+"px");
+	})
 
 
 	// WOW ANIMATION 

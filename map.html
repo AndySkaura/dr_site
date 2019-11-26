@@ -335,33 +335,154 @@
     station.push(["中建二局洛阳机械有限公司", 112.433452, 34.707332])
     station.push(["陕西新意达混凝土有限公司", 109.74364, 34.485322])
 
-    map.centerAndZoom("银川", 6.5);
-    for (var i = 0; i < station.length; i++) {
-        var point = new BMap.Point(station[i][1], station[i][2]);
+    var project = [
+        { "name": "新建黄冈至黄梅铁路站前工程HHZQ-1标段", "w": "114.959329", "s": "30.501955" },
+        { "name": "陕西省合阳至铜川、吴起至华池高速公路项目", "w": "108.131253", "s": "36.664934" },
+        { "name": "固原市九龙佳苑-百合苑项目施工二标段", "w": "106.23228", "s": "36.00631" },
+        { "name": "石家庄机场空管改扩建工程", "w": "114.707705", "s": "38.287644" },
+        { "name": "新建福厦铁路FX-3标项目经理部", "w": "119.142547", "s": "25.476965" },
+        { "name": "莆田市城厢区县道X282灵川至华亭公路工程", "w": "119.037395", "s": "25.305125" },
+        { "name": "吉木萨尔县庭州湾大桥及人民东路接线工程", "w": "89.187123", "s": "44.005718" },
+        { "name": "固原市棚户区改造项目", "w": "106.288515", "s": "36.00679" },
+        { "name": "昭通市昭阳至永善公路改建工程项目SG3标段", "w": "103.606856", "s": "28.018903" },
+        { "name": "银西铁路银川至吴忠客专YWZQ-3标段项目经理部", "w": "106.29026", "s": "38.398675" },
+        { "name": "新建吴忠至中卫铁路", "w": "106.147292", "s": "37.891008" },
+        { "name": "符夹铁路FJZQ-Ⅰ标项目经理部", "w": "116.968253", "s": "34.168491" },
+        { "name": "武夷新区轨道交通武夷山东站至景区线土建工程", "w": "118.085415", "s": "27.447265" },
+        { "name": "徐州城市轨道交通1号线一期工程铺轨工程", "w": "117.32994", "s": "34.28611" },
+        { "name": "国省干线S201（联七线）公路霞浦东冲至火车站段工程A3标段", "w": "119.995033", "s": "26.705698" },
+        { "name": "昌赣铁路CGZQ-8标项目部第五分部", "w": "114.91506", "s": "26.696023" },
+        { "name": "周宁C1C3标项目经理部", "w": "119.373183", "s": "26.942022" },
+        { "name": "中铁十六局集团莆炎高速公路三明段YA3项目部", "w": "117.073019", "s": "26.440268" },
+        { "name": "曹妃甸综合保税区进口商品体验中心项目", "w": "118.470562", "s": "39.279424" },
+        { "name": "镇江新区基础设施BT项目", "w": "119.676801", "s": "32.19566" },
+        { "name": "纵三线周宁城关段项目部经理部", "w": "119.34544", "s": "27.110205" },
+        { "name": "格巧高速公路项目经理部", "w": "103.069603", "s": "26.476033" },
+        { "name": "洪雅至峨眉山公路新建工程（柳江至终点段）项目经理部", "w": "103.241069", "s": "29.723022" },
+        { "name": "天下川小区三期（南区）一标段", "w": "106.282576", "s": "38.50477" },
+        { "name": "兰州至海口国家高速公路（G75）渭源至武都建设项目路基、桥涵及隧道工程", "w": "104.315873", "s": " 33.49224855" },
+        { "name": "中铁十六局集团连镇铁路项目经理部六分部", "w": "119.266569", "s": "33.787061" },
+        { "name": "北海市海景大道南段（白虎头至大冠沙）道路工程之冯家江大桥", "w": "109.162187", "s": "21.422657" },
+        { "name": "龙岩厦蓉高速公路扩建工程A9合同段", "w": "116.830986", "s": "25.229449" },
+        { "name": "唐山市中心城区环线（二环路）工程施工B-13标段工程", "w": "118.306118", "s": "39.711669" },
+        { "name": "黔张常铁路项目经理部一分部", "w": "110.557296", "s": "29.127771" },
+        { "name": "中铁十六局集团有限公司唐曹铁路TCSG-4标项目经理部", "w": "118.520032", "s": "39.273885" },
+        { "name": "北京曹妃甸职教城一期北京中瑞护理职业技术学院项目", "w": "118.601542", "s": "39.188107" },
+        { "name": "玉溪至磨憨铁路YMZQ-8标", "w": "101.695078", "s": "23.434885" },
+        { "name": "蒙华铁路MHSS-4标项目经理部二工区", "w": "111.069436", "s": "34.316941" },
+        { "name": "厦蓉高速公路龙岩东联络线（龙岩高速公路东环线）跨铁路交叉应急工程", "w": "117.05749", "s": "25.099172" },
+        { "name": "昌赣客专CGZQ-8标四分部", "w": "114.952092", "s": "25.900009" },
+        { "name": "南昌经开空港花园安置房项目部", "w": "115.886835", "s": "28.797534" },
+        { "name": "成贵铁路CGZQSG-8标一分部", "w": "105.261533", "s": "28.362897" },
+        { "name": "南龙铁路NLZQ-4标", "w": "117.547022", "s": "26.167215" },
+        { "name": "中铁十六局集团石黔高速施工总承包指挥部", "w": "108.720143", "s": "29.530805" },
+        { "name": "中铁福厦3标1分部", "w": "119.122692", "s": "25.439658" },
+        { "name": "中铁福厦3标2分部", "w": "119.124674", "s": "25.480675" },
+        { "name": "延庆区昌赤路（王家山—白河堡）道路工程第二标段", "w": "116.155751", "s": "40.585002" },
+        { "name": "中铁十一局集团贵南高铁GNZQ-6标项目经理部", "w": "108.090587", "s": "23.966234" },
+        { "name": "中铁十一局集团黄黄铁路HHZQ-4标项目经理部", "w": "115.898319", "s": "30.068628" },
+        { "name": "中铁十一局集团广汕铁路GSSG6标项目经理部", "w": "114.74796", "s": "22.951473" },
+        { "name": "中铁十一局集团第四工程有限公司墨临公路TJ3标项目经理部", "w": "101.533881", "s": "23.666785" },
+    ];
 
-        var marker = new BMap.Marker(point, { title: station[i][0] });
-        //var lable = new BMap.Label(station[i][0], { offset: new BMap.Size(20, 0) });
-        //marker.setLabel(lable);
-        map.addOverlay(marker);
+    map.centerAndZoom("银川", 6.5);
+    function drawPoint(){
+        for (var i = 0; i < station.length; i++) {
+            var point = new BMap.Point(station[i][1], station[i][2]);
+            var point_icon = new BMap.Icon("ico/red.png", new BMap.Size(240, 325), {
+                anchor: new BMap.Size(119, 325)
+            });
+            var marker = new BMap.Marker(point, { title: station[i][0],  });
+            map.addOverlay(marker);
+        }
+        for (var i = 0; i < project.length; i++) {
+            var point = new BMap.Point(project[i]["w"], project[i]["s"]);
+            var point_icon = new BMap.Icon("ico/blue.png", new BMap.Size(240, 325), {
+                anchor: new BMap.Size(119, 325)
+            });
+            var marker = new BMap.Marker(point, { title: project[i]["name"], });
+            map.addOverlay(marker);
+        }
     }
     var top_left_control = new BMap.ScaleControl({ anchor: BMAP_ANCHOR_TOP_LEFT });// 左上角，添加比例尺
     var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件
-    // var top_right_navigation = new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL});
-    map.addControl(top_left_control);
-    map.addControl(top_left_navigation);
-    // map.addControl(top_right_navigation); 
-
-    var polyline = new BMap.Polyline([
-        new BMap.Point(58,33.895683),
-        new BMap.Point(130, 33.895683),
-    ], { strokeColor: "blue", strokeWeight: 0.5, strokeOpacity: 1});
-    map.addOverlay(polyline);
-    var polyline1 = new BMap.Polyline([
-        new BMap.Point(108.597746,50),
-        new BMap.Point(108.597746,9.195329),
-    ], { strokeColor: "blue", strokeWeight: 0.5, strokeOpacity: 1 });
-    map.addOverlay(polyline1);
-
+    drawPoint();
     map.enableScrollWheelZoom(true);
-
+    /**增加工具栏**/
+    function addControls() {
+        map.addControl(top_left_control);
+        map.addControl(top_left_navigation);
+    }
+    // 移除工具栏
+    function removeControls() {
+        map.removeControl(top_left_control);
+        map.removeControl(top_left_navigation);
+    }
+    // 画线
+    function drawAll() {
+        for (var i = 0; i <= 16; i++) {
+            var polyline = new BMap.Polyline([
+                new BMap.Point(73 + i * (7.875 / 2), 54),
+                new BMap.Point(73 + i * (7.875 / 2), 18),
+            ], { strokeColor: "blue", strokeWeight: 0.5, strokeOpacity: 0.5 });
+            map.addOverlay(polyline);
+            var polyline1 = new BMap.Polyline([
+                new BMap.Point(73, 54 - i * (4.5 / 2)),
+                new BMap.Point(136, 54 - i * (4.5 / 2)),
+            ], { strokeColor: "blue", strokeWeight: 0.5, strokeOpacity: 0.5 });
+            map.addOverlay(polyline1);
+        }
+    }
+    // 根据区域画线
+    function drawId(id,iscenter) {
+        var h = Math.ceil(id / 16);
+        var w = (id % 16)==0?16:(id%16);
+        var polyline = new BMap.Polyline([
+            new BMap.Point(73 + (w - 1) * (7.875 / 2), 54 - (h-1) * (4.5 / 2)),
+            new BMap.Point(73 + w * (7.875 / 2), 54 - (h-1) * (4.5 / 2)),
+        ], { strokeColor: "black", strokeWeight: 0.5, strokeOpacity: 1 });
+        map.addOverlay(polyline);
+        var polyline = new BMap.Polyline([
+            new BMap.Point(73 + (w - 1) * (7.875 / 2), 54 - (h ) * (4.5 / 2)),
+            new BMap.Point(73 + w * (7.875 / 2), 54 - (h ) * (4.5 / 2)),
+        ], { strokeColor: "black", strokeWeight: 0.5, strokeOpacity: 1 });
+        map.addOverlay(polyline);
+        var polyline = new BMap.Polyline([
+            new BMap.Point(73 + (w - 1) * (7.875 / 2), 54 - (h-1) * (4.5 / 2)),
+            new BMap.Point(73 + (w - 1) * (7.875 / 2), 54 - (h ) * (4.5 / 2)),
+        ], { strokeColor: "black", strokeWeight: 0.5, strokeOpacity: 1 });
+        map.addOverlay(polyline);
+        var polyline = new BMap.Polyline([
+            new BMap.Point(73 + w * (7.875 / 2), 54 - (h-1) * (4.5 / 2)),
+            new BMap.Point(73 + w * (7.875 / 2), 54 - (h) * (4.5 / 2)),
+        ], { strokeColor: "black", strokeWeight: 0.5, strokeOpacity: 1 });
+        map.addOverlay(polyline);
+        if(iscenter){
+            var point = new BMap.Point(73+7.875/4+ (w - 1) * (7.875 / 2), 54-4.5/4-(h-1) * (4.5 / 2)); 
+            map.centerAndZoom(point, 7.5)
+        }
+    }
+    // 根据多个区域画线
+    function drawIds(ids) {
+        for (var i = 0; i < ids.length; i++) {
+            drawId(ids[i]);
+        }
+    }
+    // 移除线条
+    function removeDraw() {
+        map.clearOverlays();
+        this.drawPoint();
+    }
+    // 清除线条并 画线
+    function clearAndDraw(id){
+        this.removeDraw();
+        this.drawPoint();
+        this.drawId(id,true);
+    }
+    //移动到区域
+    function moveTo(id){
+        this.drawId(id,true);
+        this.removeDraw();
+        this.drawPoint();
+    }
 </script>
