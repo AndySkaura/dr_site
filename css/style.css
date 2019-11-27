@@ -447,7 +447,7 @@ footer{position: relative;}
 .side-image-content-inFac{width: 100%; float: left; display: flex;flex-direction: column; justify-content:center; margin: 100px 0;}
 .side-image-content-inFac .titleBox{ align-items: center; margin-bottom: 5%; display: flex;justify-content: center; flex-direction: row;background-image: url('../images/intelligentFactory/img_bg2.png');background-position: center; background-repeat: no-repeat;background-size: cover;}
 .side-image-content-inFac .titleBox .title{margin: 10px; height: 155px; display: flex;flex-direction: column;justify-content: center;text-align: center; width: 20%; background-color: #f40c1a;margin-top: 10%;margin-bottom: -5%;}
-.side-image-content-inFac .titleBox img{width: 50%;margin-top: 10%;margin-bottom: -5%;}
+.side-image-content-inFac .titleBox img{border:5px solid #eee; width: 50%;margin-top: 10%;margin-bottom: -5%;}
 .side-image-content-inFac .titleBox .title h2{font-size: xx-large;color: white;margin:0;}
 .side-image-content-inFac .titleBox .title h4{font-size: x-large;color: white;margin:0;}
 .side-image-content-inFac .text{padding-left: 14%;padding-right: 14%;padding-top: 3%;}
