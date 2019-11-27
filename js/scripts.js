@@ -157,10 +157,31 @@
 			prevEl: '.swiper-button-prev',
 		},
 	});
+	var swiper = new Swiper('.swiper-container', {
+		speed: 600,
+		parallax: true,
+		loop: true,
+		autoplay: {
+			delay: 10000,
+			disableOnInteraction: true,
+		},
+		pagination: {
+			el: '.swiper-pagination',
+			type: 'fraction',
+		},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+	});
 
 	$(".slider").css("height",$(window).width()*(970/1900)+"px");
 	$(window).resize(function () {
 		$(".slider").css("height",$(window).width()*(970/1900)+"px");
+	})
+	$(".swiper-box").css("height",$(".swiper-box").width()*(762/1800)+"px");
+	$(window).resize(function () {
+		$(".swiper-box").css("height",$(".swiper-box").width()*(762/1800)+"px");
 	})
 
 
