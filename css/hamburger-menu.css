@@ -19,7 +19,7 @@
 	transition: transform 0.3s, opacity 0.3s;
 	transform: translateY(100%);
 	transition-timing-function: ease-out;
-	margin: 10px 0;
+	margin: 1vh 0;
 }
 .hamburger-navigation li .dropdown {
 	display: none;

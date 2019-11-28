@@ -780,7 +780,7 @@ footer{position: relative;}
 
 /* RESPONSIVE MOBILE FIXES */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
-	.header{padding: 30px;}
+	.header{padding: 30px 30px 0 30px;}
 	.header .language{display: none;}
 	.social-bar{display: none;}
 	.slider .swiper-container .swiper-slide .inner{padding: 0 30px;}
