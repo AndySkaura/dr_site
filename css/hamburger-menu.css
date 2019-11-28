@@ -129,6 +129,12 @@
 .hamburger-navigation.is-opened li:nth-of-type(8) {
 	transition-delay: 1.0s;
 }
+.hamburger-navigation li:nth-of-type(9) {
+	transition-delay: 0s;
+}
+.hamburger-navigation.is-opened li:nth-of-type(9) {
+	transition-delay: 1.05s;
+}
 .shape-overlays {
 	width: 100vw;
 	height: 100vh;
