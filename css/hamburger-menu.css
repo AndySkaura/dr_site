@@ -11,6 +11,7 @@
 	visibility: hidden;
 }
 .hamburger-navigation li {
+	
 	width: 100%;
 	float: left;
 	opacity: 0;
@@ -51,7 +52,7 @@
 	color: #fff;
 	opacity: 1;
 	font-size: 32px;
-	font-family: "Fjalla One";
+	font-family: "LiSu";
 	text-transform: uppercase;
 	position: relative;
 }
