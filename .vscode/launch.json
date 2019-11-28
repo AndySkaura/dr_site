@@ -76,6 +76,14 @@
             "file": "${workspaceRoot}/map.html",
             "webRoot": "${workspaceFolder}",
             "sourceMaps": true
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "数字化装备",
+            "file": "${workspaceRoot}/equipment.html",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true
         }
     ]
 }
