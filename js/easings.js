@@ -1,5 +1,3 @@
-"use strict";
-
 //
 // these easing functions are based on the code of glsl-easing module.
 // https://github.com/glslify/glsl-easings
