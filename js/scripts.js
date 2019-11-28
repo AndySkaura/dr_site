@@ -150,11 +150,11 @@
 		},
 		pagination: {
 			el: '.swiper-pagination',
-			type: 'fraction',
+			type: 'fraction'
 		},
 		navigation: {
 			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
+			prevEl: '.swiper-button-prev'
 		},
 	});
 	var swiper = new Swiper('.swiper-container', {
@@ -163,15 +163,15 @@
 		loop: true,
 		autoplay: {
 			delay: 10000,
-			disableOnInteraction: true,
+			disableOnInteraction: true
 		},
 		pagination: {
 			el: '.swiper-pagination',
-			type: 'fraction',
+			type: 'fraction'
 		},
 		navigation: {
 			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
+			prevEl: '.swiper-button-prev'
 		},
 	});
 
