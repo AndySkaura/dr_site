@@ -392,7 +392,7 @@ footer{position: relative;}
 .team-members .member figcaption div h3{font-size: 13px; font-weight: 700; color: #fff; margin: 0;}
 .team-members .member figcaption div small{ display: block; color: #fff;}
 .team-members .member:hover{ box-shadow: 0 66px 75px -10px rgba(0,0,0,.3);}
-.team-members .member:hover img{opacity: 0.2; -moz-transform: scale(1.1); -webkit-transform: scale(1.1); transform: scale(1.1);}
+.team-members .member:hover img{opacity: 0.15; -moz-transform: scale(1.1); -webkit-transform: scale(1.1); transform: scale(1.1);}
 .team-members .member:hover figcaption{opacity: 1;}
 
 
@@ -464,11 +464,11 @@ footer{position: relative;}
 .awards h5{ font-size: 12px; font-weight: 700; margin-top: 20px;}
 .awards h5:before{content: ""; width: 4px; height: 10px; float: left; background: #f50c1a; margin-left: -10px; margin-top: 2px;}
 .awards h2{ font-family: "Playfair Display"; font-size: 4em; margin-bottom: 30px; text-indent: -5px;}
-.awards figure{ width: 100%; float: left; margin-bottom: 20px; padding: 20px 30px; position: relative;}
+.awards figure{ width: 100%; float: left; padding: 20px 30px; position: relative;}
 .awards figure:after{content: ""; width: 40px; height: 3px; background: #f50c1a; position: absolute; left: 50%; bottom:0; margin-left: -20px;}
 .awards figure img{ width: 100%; float: left; opacity: 0.5; }
 .awards .award{ width: 100%; float: left; border: 1px solid #eee; padding-bottom: 20px;}
-.awards .odometerSpan{ display: block; text-align: center; font-family: "Fjalla One"; font-size: 30px;}
+.awards .odometerSpan{ display: block; text-align: center; font-family: "Fjalla One"; font-size: 20px;}
 
 
 /* JOURNAL */
@@ -490,7 +490,7 @@ footer{position: relative;}
 .journal .post.detail .post-content p{ width: 100%; float: left; padding-right: 0;}
 .journal .post.highlight{width: 100%; float: left; position: relative; margin-bottom: 120px;}
 .journal .post.highlight figure{ width: 100%; float: left; margin: 0; }
-.journal .post.highlight figure img{ opacity: 0.4;}
+.journal .post.highlight figure img{ opacity: 0.8;}
 .journal .post.highlight .post-content{position: absolute; left: 0; bottom: 0; padding: 50px; padding-right: 40%; color: #fff;}
 .journal .post.highlight .post-content h3{font-size: 3em;}
 .journal .post.highlight .post-content .author{position: static;}
@@ -499,7 +499,7 @@ footer{position: relative;}
 .journal .post.highlight .post-content p{opacity: 1;}
 .journal .post.highlight .post-content a{color: #fff;}
 .journal .post.highlight .post-content a:hover{color: #fff;}
-.journal .post.highlight:hover figure img{opacity: 0.6;}
+.journal .post.highlight:hover figure img{opacity: 1;}
 .journal .post figure{ width: 100%; float: left; margin-bottom: 20px; position:relative; background: #131314; overflow: hidden;}
 .journal .post figure img{ width: 100%; float: left; opacity: 0.6;}
 .journal .post figure .author{ width: 100%; line-height: 50px; position: absolute; left: 30px; bottom: 30px; color: #fff;}
@@ -548,13 +548,15 @@ footer{position: relative;}
 .contact #contact textarea.error{width:100%; border:1px solid #f50c1a;}
 .map{ width: 70%; height: 420px; display: inline-block; margin:0 15%;  background: #f50c1a; display: none;}
 
-.justify-content-md-center .title{width:100%;text-align: center;margin-bottom: 3%;}
-.justify-content-md-center:nth-child(2) .title{margin-bottom: 50px;}
+.justify-content-md-center .title{width:100%;text-align: center;margin-bottom: 4%;margin-top: 5%;}
+.justify-content-md-center:nth-child(2) .title{margin-bottom: 50px;margin-top: 50px;}
 .justify-content-md-center table{line-height:30px;margin: 50px;color: #5a5959;margin-right: 0; margin-left: 15%;font-size: 14px;font-weight: lighter;}
 .justify-content-md-center table tr td:first-child{color: #57E6B0;width: 25%;font-size: 18px;}
 .intelLogImages{display: flex;flex-direction: row;justify-content:center;background: white;}
 .intelLogImages .imgIcon:hover{background: red;transition: background 1s;}
 .intelLogImages .imgIcon:hover p{color: white;}
+.logistics-row .title{margin-bottom: 0%;margin-top: 0%;}
+
 .intelLogImages .imgIcon:hover .imgb{display: none;}
 .intelLogImages .imgIcon:hover .imgw{display: inline;}
 
@@ -565,7 +567,7 @@ footer{position: relative;}
 
 
 .justify-content-md-center .imgIcon{ display: flex;flex-direction: column;justify-content: center; align-items: center; width: 300px;height: 370px;margin: 25px; text-align: center;border: 2px solid rgba(90, 89, 89, 0.2);}
-.justify-content-md-center .imgIcon div p{color: #616161;line-height: 20px;font-size: large;font-weight: bold; line-height: 40px; margin-top: 30px;}
+.justify-content-md-center .imgIcon div p{color: #333333;line-height: 20px;font-size: 22px;font-weight:lighter; line-height: 40px; margin-top: 30px;}
 .justify-content-md-center .banner{width: 335px;height: 165px;margin: 2px; border-radius:5px 5px 5px 5px}
 .justify-content-md-center .bannerBox{margin-top: 50px;width: 100%;display: flex;flex-direction: row;justify-content: space-between;}
 .justify-content-md-center .banner:nth-child(1){background-color: #896DAA;}
@@ -576,9 +578,9 @@ footer{position: relative;}
 .justify-content-md-center .banner div span{color:white;font-size: large;position: relative;left: 5%;}
 .justify-content-md-center .banner div a{color:white;font-size: small;position: relative;right: -93%;bottom: 5%;}
 .justify-content-md-center:nth-child(3){margin-bottom: 50px;margin-top: 100px;}
-.internetBox2{margin-top: 50px;margin-bottom: 50px;}
+.internetBox2{margin-top: 50px;margin-bottom: 90px;}
 .justify-content-md-center .content1{margin-top: -13%;width: 100%;}
-.justify-content-md-center .content1 .titleBox{width: 100%; position: relative;display: flex;justify-content:center; flex-wrap:wrap;flex-direction: row;}
+.justify-content-md-center .content1 .titleBox{width: 100%; position: relative;display: flex;justify-content:center; flex-wrap:wrap;flex-direction: row;margin-bottom: 5%;}
 .justify-content-md-center .content1 .titleBox img:first-child {margin-top: -1%;z-index: 2;}
 .justify-content-md-center .content1 .titleBox div{margin-top: 3%;margin-left: 12px;width: 33rem;}
 .justify-content-md-center .content1 .titleBox div img{margin-left: 3%;}
@@ -632,7 +634,7 @@ footer{position: relative;}
 .footer .social-media li a:hover{text-decoration: none; color: #f50c1a;}
 .footer h4{font-weight: 300; letter-spacing: -1px; font-size: 2em;}
 .footer h2{ font-family: "Fjalla One"; text-transform: uppercase; font-size: 4em; margin-bottom: 30px; padding: 0 10%;}
-.footer .btn-contact{height: 60px; line-height: 58px; display: inline-block; border: 1px solid rgba(255,255,255,0.2); padding: 0 40px; font-size: 11px; font-weight: 700; color: #fff; margin-bottom: 30px; overflow: hidden;}
+.footer .btn-contact{height: 50px; line-height: 49px; display: inline-block; border: 1px solid rgba(255,255,255,0.2); padding: 0 40px; font-size: 11px; font-weight: 700; color: #fff; margin-bottom: 30px; overflow: hidden;}
 .footer .btn-contact *{-webkit-transition: .25s ease-in-out;-moz-transition: .25s ease-in-out;-ms-transition: .25s ease-in-out; -o-transition: .25s ease-in-out; transition: .25s ease-in-out;}
 .footer .btn-contact span { position: relative; display: inline-block;}
 .footer .btn-contact span:before {position: absolute;top: 100%; content: attr(data-hover); }
