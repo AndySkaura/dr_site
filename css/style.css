@@ -553,7 +553,7 @@ footer{position: relative;}
 .justify-content-md-center table{line-height:30px;margin: 50px;color: #5a5959;margin-right: 0; margin-left: 15%;font-size: 14px;font-weight: lighter;}
 .justify-content-md-center table tr td:first-child{color: #57E6B0;width: 25%;font-size: 18px;}
 .intelLogImages{display: flex;flex-direction: row;justify-content:center;background: white;}
-.intelLogImages .imgIcon:hover{background: red;transition: background 2s;}
+.intelLogImages .imgIcon:hover{background: red;transition: background 1s;}
 .intelLogImages .imgIcon:hover p{color: white;}
 .intelLogImages .imgIcon:hover .imgb{display: none;}
 .intelLogImages .imgIcon:hover .imgw{display: inline;}
@@ -595,7 +595,7 @@ footer{position: relative;}
 .internet-chooseBox .imgIconLeft:first-child p{font-weight: lighter ;color: #414141;margin-top: 10px;}
 .internet-chooseBox .flexBox{width: 75%;display: flex;flex-wrap: wrap;flex-direction: row;}
 .internet-chooseBox .flexBox .imgIcon{width: 33%;height: 200px; border: 1px solid rgba(90, 89, 89, 0.2);text-align: center;padding: 45px;background: white;}
-.internet-chooseBox .flexBox .imgIcon:hover{background: red; transition: background 2s;}
+.internet-chooseBox .flexBox .imgIcon:hover{background: red; transition: background 1s;}
 .internet-chooseBox .flexBox .imgIcon:hover p{color:white;transition: color 1s;}
 .internet-chooseBox .flexBox .imgIcon:hover .imgw{display: inline;}
 .internet-chooseBox .flexBox .imgIcon:hover .imgb{display: none;}
@@ -615,7 +615,7 @@ footer{position: relative;}
 .internet-chooseBox .flexBox .imgIcon1{width: 25%;height: 200px; border: 1px solid rgba(90, 89, 89, 0.2);text-align: center;padding-top:40px;}
 .internet-chooseBox .flexBox .imgIcon1 p{color: #333333;margin-top: 20%;font-weight: normal;font-size: large;}
 
-.internet-chooseBox .flexBox .imgIcon1:hover{background: red; transition: background 2s;}
+.internet-chooseBox .flexBox .imgIcon1:hover{background: red; transition: background 1s;}
 .internet-chooseBox .flexBox .imgIcon1:hover p{color:white;transition: color 1s;}
 .internet-chooseBox .flexBox .imgIcon1:hover .imgw{display: inline;}
 .internet-chooseBox .flexBox .imgIcon1:hover .imgb{display: none;}
@@ -708,7 +708,7 @@ footer{position: relative;}
 .equipment-construcBox3 .equipment-iconBox .iconBox figcaption{ width: 100%; height: 100%; position: absolute; left: 0; top: 0; opacity: 0;}
 .equipment-construcBox3 .equipment-iconBox .iconBox figcaption div{align-items: center; align-content: center; display: flex;flex-direction: column;justify-content: center; width: 100%; height: 30px; float: left; position: absolute; left: 0; top: 50%; margin-top: -15px; text-align: left;}
 .equipment-construcBox3 .equipment-iconBox .iconBox figcaption div h3{font-size: medium; font-weight: lighter; color: #fff; margin: 0;}
-.equipment-construcBox3 .equipment-iconBox .iconBox:hover{box-shadow: 0 66px 75px -10px rgba(0,0,0,.3);background-color: red;transition: background-color 2s;}
+.equipment-construcBox3 .equipment-iconBox .iconBox:hover{box-shadow: 0 66px 75px -10px rgba(0,0,0,.3);background-color: red;transition: background-color 1s;}
 .equipment-construcBox3 .equipment-iconBox .iconBox:hover img{opacity: 0; -moz-transform: scale(1.1); -webkit-transform: scale(1.1); transform: scale(1.1);}
 .equipment-construcBox3 .equipment-iconBox .iconBox:hover p{opacity: 0; -moz-transform: scale(1.1); -webkit-transform: scale(1.1); transform: scale(1.1);}
 .equipment-construcBox3 .equipment-iconBox .iconBox:hover figcaption{opacity: 1;}
