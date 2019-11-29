@@ -713,7 +713,7 @@ footer{position: relative;}
 .equipment-construcBox3 .equipment-iconBox .iconBox:hover figcaption{opacity: 1;}
 
 .solution-int-hero{background-image: url('../images/solution/img_solutionBg.png');padding-top: 25%; background-repeat: no-repeat;background-position-x: center;background-position-y: center;background-size: contain;}
-.solution-content{background: #fff0;}
+.solution-content{background: #131314;}
 .solution-box{padding-bottom: 2%; margin-bottom: 5%; background: #fff;border-radius: 10px;display: flex;flex-direction: row;flex-wrap: wrap;}
 .solution-container{max-width: 1500px;}
 .solution-text-box{padding-left: 2%; width: 65%;}
