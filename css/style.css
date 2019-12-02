@@ -156,7 +156,7 @@ footer{position: relative;}
 /* PAGE LOADED */
 .page-loaded .preloader{ top: -100%; transition-delay: 0.60s;}
 .page-loaded .preloader img{ opacity: 0; margin-top: -120px; transition-delay: 0.30s;}
-.page-loaded .header{top: 0; opacity: 1; transition-delay: 0.6s;text-shadow:0px 0px 10px #000;}
+.page-loaded .header{top: 0; opacity: 1; transition-delay: 0.6s;}
 .page-loaded .slider{transform: translateY(0); transition-delay: 0.6s; opacity: 1;}
 .page-loaded .int-hero .inner h2{transform: translateY(0); transition-delay: 0.6s; opacity: 1;}
 .page-loaded .int-hero .inner2 h3{transform: translateY(0); transition-delay: 0.6s;font-size: 1.4rem;margin-top: 4.5rem; opacity: 1;}
@@ -196,7 +196,7 @@ footer{position: relative;}
 .header{-webkit-transition: all 1s ease; -moz-transition: all 1s ease; -ms-transform:all 1s ease; transition: all 1s ease; } 
 .header .logo{float: left; margin-right: 20px;}
 .header .logo img{ width: 35px;}
-.header .phone{float: left; color: #fff; line-height: 32px; font-family: "Fjalla One";}
+.header .phone{float: left; color: #fff; line-height: 32px; font-family: "Fjalla One";text-shadow:0px 0px 10px #000;}
 .header .language{ float: right; margin-right: 30px; margin-bottom: 0;}
 .header .language li{ float: left; list-style: none; margin: 0; margin-left: 20px; font-family: "Fjalla One";}
 .header .language li a{float: left; color: #fff; line-height: 35px;}
