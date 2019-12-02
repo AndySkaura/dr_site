@@ -734,6 +734,7 @@ footer{position: relative;}
 @media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
 	.header{padding: 30px 60px;}
 	.slider .swiper-container .swiper-slide .inner h2{font-size: 4em;}
+	
 	.slider .swiper-container .swiper-slide .inner{padding: 0 60px;}
 	.slider .swiper-container .swiper-pagination-fraction{left: 60px;}
 	.icon-features p{padding: 0;}
