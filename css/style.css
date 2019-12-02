@@ -184,10 +184,10 @@ footer{position: relative;}
 
 /* SOCIAL BAR */
 .social-bar{ width: 400px; position: fixed; left: 0; top: 50%; margin-top: 200px; z-index: 3; -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); transform: rotate(-90deg); -moz-transform-origin: 0 0; -ms-transform-origin: 0 0; -webkit-transform-origin: 0 0; transform-origin: 0 0; text-align: center;}
-.social-bar li{display:inline-block; list-style: none; padding: 20px 0; margin: 0 10px; font-weight: 600;}
-.social-bar li a{float: left; color: #fff; font-size: 11px;}
+.social-bar li{display:inline-block; list-style: none; padding: 20px 0; margin: 0 10px;}
+.social-bar li a{float: left; color: #fff;}
 .social-bar li a:hover{text-decoration: none; color: #f50c1a;}
-.social-bar li a span{-moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -webkit-transform: rotate(90deg); transform: rotate(90deg);display: inline-block;}
+.social-bar li a span{margin: 0 1px; -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -webkit-transform: rotate(90deg); transform: rotate(90deg);display: inline-block;}
 
 
 	
@@ -549,6 +549,7 @@ footer{position: relative;}
 .justify-content-md-center .title{width:100%;text-align: center;margin-bottom: 4%;margin-top: 5%;color: #333333;}
 .justify-content-md-center:nth-child(2) .title{margin-bottom: 50px;margin-top: 50px;}
 .justify-content-md-center table{line-height:30px;margin: 50px;color: #5a5959;margin-right: 0; margin-left: 15%;font-size: 14px;font-weight: lighter;}
+.justify-content-md-center table tr td{vertical-align: top;}
 .justify-content-md-center table tr td:first-child{color: #57E6B0;width: 25%;font-size: 18px;}
 .intelLogImages{display: flex;flex-direction: row;justify-content:center;background: white;}
 .intelLogImages .imgIcon:hover{background: red;transition: background 1s;}
@@ -734,7 +735,7 @@ footer{position: relative;}
 @media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
 	.header{padding: 30px 60px;}
 	.slider .swiper-container .swiper-slide .inner h2{font-size: 4em;}
-	
+
 	.slider .swiper-container .swiper-slide .inner{padding: 0 60px;}
 	.slider .swiper-container .swiper-pagination-fraction{left: 60px;}
 	.icon-features p{padding: 0;}
