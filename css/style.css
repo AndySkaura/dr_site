@@ -708,7 +708,7 @@ footer{position: relative;}
 .equipment-construcBox3 .equipment-iconBox .iconBox p{font-size: x-large;color: white;}
 
 .equipment-construcBox3 .equipment-iconBox .iconBox figcaption{ width: 100%; height: 100%; position: absolute; left: 0; top: 0; opacity: 0;}
-.equipment-construcBox3 .equipment-iconBox .iconBox figcaption div{align-items: center; align-content: center; display: flex;flex-direction: column;justify-content: center; width: 100%; height: 30px; float: left; position: absolute; left: 0; top: 50%; margin-top: -15px; text-align: left;}
+.equipment-construcBox3 .equipment-iconBox .iconBox figcaption div{padding: 30px; align-items: center; align-content: center; display: flex;flex-direction: column;justify-content: center; width: 100%; height: 30px; float: left; position: absolute; left: 0; top: 50%; margin-top: -15px; text-align: left;}
 .equipment-construcBox3 .equipment-iconBox .iconBox figcaption div h3{font-size: medium; font-weight: lighter; color: #fff; margin: 0;}
 .equipment-construcBox3 .equipment-iconBox .iconBox:hover{box-shadow: 0 66px 75px -10px rgba(0,0,0,.3);}
 .equipment-construcBox3 .equipment-iconBox .iconBox:hover img{opacity: 0; -moz-transform: scale(1.1); -webkit-transform: scale(1.1); transform: scale(1.1);}
