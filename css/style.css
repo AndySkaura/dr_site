@@ -109,7 +109,7 @@ footer{position: relative;}
 
 /* EQUALIZER */
 .equalizer { width: 18px; height: 20px; cursor: pointer; position: relative;}
-.equalizer span { background: #fff; width: 3px; height: 0px; bottom: 0; left: 0%; display: block; position: absolute; transition: height 0.2s linear;}
+.equalizer span { background: #fff; width: 3px; height: 0px; bottom: 0; left: 0%; display: block; position: absolute; transition: height 0.2s linear;box-shadow: 1px 1px 15px #000, 1px 1px 15px #000, 1px 1px 15px #000;}
 .equalizer span:nth-child(1) { margin-left: 5px;}
 .equalizer span:nth-child(2) { margin-left: 10px;}
 .equalizer span:nth-child(4) { margin-left: 15px;}
@@ -175,7 +175,7 @@ footer{position: relative;}
 
 
 /* PERSPECTIVE HOVER */
- .perspective-box { position: relative; display:inline-block; width:100%; margin: 5px; cursor: pointer; transform: perspective(600px) translate3d(0, 0, 0); backface-visiblity:none;  transform-style: preserve-3d;}	
+ .perspective-box { position: relative; display:inline-block; width:100%; cursor: pointer; transform: perspective(600px) translate3d(0, 0, 0); backface-visiblity:none;  transform-style: preserve-3d;}	
 .perspective-box img { width:100%; float: left;}
 .perspective-box:hover { box-shadow: 0 66px 75px -10px rgba(0,0,0,.3);  transform-style: preserve-3d; z-index:20; }
 
@@ -201,8 +201,8 @@ footer{position: relative;}
 .header .language li{ float: left; list-style: none; margin: 0; margin-left: 20px; font-family: "Fjalla One";}
 .header .language li a{float: left; color: #fff; line-height: 35px;}
 .header .language li a:hover{text-decoration: none; opacity: 0.8;}
-.header .hamburger{float: right; margin-top: -5px;box-shadow: 3px 5px 0 0 #6d6a6a73;}
-.header .equalizer{float: right; margin-top: 5px; margin-right: 20px;box-shadow:2px 5px 2px 3px #291d1e3d, 2px 5px 2px 3px #291d1e3d}
+.header .hamburger{float: right; margin-top: -5px;box-shadow: 1px 1px 15px #000, 1px 1px 15px #949393}
+.header .equalizer{float: right; margin-top: 5px; margin-right: 20px}
 /* .overflow-hidden .header .logo img{-webkit-filter: brightness(0) invert(1); filter: brightness(0) invert(1);} */
 
 /* DROPDOWN */
@@ -233,11 +233,11 @@ footer{position: relative;}
 
 /* SLIDER BUTTONS */
 .slider .swiper-container .swiper-button-prev:hover{transition: background 1s;background: red;}
-.slider .swiper-container .swiper-button-prev{ transition: background 1s;border-radius: 50%;background: rgba(218, 218, 218, 0.712); width: 50px; height: 50px; float: left; left: 100px; right: auto; top: 50%; z-index: 6; background: none; overflow: hidden; text-align: right;}
+.slider .swiper-container .swiper-button-prev{ box-shadow: 1px 1px 15px #000, 1px 1px 15px #949393; transition: background 1s;border-radius: 50%;background: rgba(218, 218, 218, 0.712); width: 50px; height: 50px; float: left; left: 100px; right: auto; top: 50%; z-index: 6; background: none; overflow: hidden; text-align: right;}
 .slider .swiper-container .swiper-button-prev span{width: 100%; float: left; line-height: 26px; font-weight: 500; color: #fff;}
 .slider .swiper-container .swiper-button-prev *{-webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease; -ms-transform:all 0.4s ease; transition: all 0.4s ease; }
 .slider .swiper-container .swiper-button-next:hover{transition: background 1s;background: red;}
-.slider .swiper-container .swiper-button-next{transition: background 1s; border-radius: 50%;background: rgba(218, 218, 218, 0.712); width: 50px; height: 50px; float: left; right:100px; left: auto; top: 50%; z-index: 6; background: none; overflow: hidden;}
+.slider .swiper-container .swiper-button-next{box-shadow: 1px 1px 15px #000, 1px 1px 15px #949393; transition: background 1s; border-radius: 50%;background: rgba(218, 218, 218, 0.712); width: 50px; height: 50px; float: left; right:100px; left: auto; top: 50%; z-index: 6; background: none; overflow: hidden;}
 .slider .swiper-container .swiper-button-line{ width: 40px; height: 2px; background: #fff; position: absolute; right: 150px; top: 50%; z-index: 2; margin-top: -10px;}
 .slider .swiper-container .swiper-button-next span{width: 100%; float: left; line-height: 26px; font-weight: 500; color: #fff;}
 .slider .swiper-container .swiper-button-next *{ -webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease; -ms-transform:all 0.4s ease; transition: all 0.4s ease; }
@@ -429,7 +429,7 @@ footer{position: relative;}
 .side-image-content .inner {width: 50%; display: flex; justify-content: center; flex-direction: column; position: relative;}
 .side-image-content .inner.bg1{ background: #f50c1a;}
 .side-image-content .inner .main-image{ width: 100%; float: left; margin: 0; margin-top: -100px; margin-bottom: 100px;}
-.side-image-content .inner .sub-image{ width: 250px; position: absolute; right: -50px; bottom: -100px; z-index: 2;}
+.side-image-content .inner .sub-image{width: 275px;position: absolute;right: -50px;bottom: -64px;z-index: 2}
 .side-image-content .inner img{ width: 100%; }
 .side-image-content .inner .contenty{ width: 100%; float: left; padding: 0 15%; color: #fff;}
 .side-image-content .inner .contenty h5{ font-size: 12px; font-weight: 700;}
@@ -660,8 +660,9 @@ footer{position: relative;}
 .scroll-down span::before{ position: absolute; top: 0px; left: 50%; margin-left: -0.5px; width: 1px; height: 70px; background: #fff; content:"";}
 
 
-.about-us-int-hero{background-image: url('../images/aboutUs/img_2.png');padding-top: 25%; background-repeat: no-repeat;background-position-x: center;background-position-y: center;background-size: contain;}
-.aboutUscontent h2{margin:50px 0 50px 0;width: 100%;text-align: center;}
+.about-us-int-hero{background-image: url('../images/aboutUs/img_2.png');padding-top: 42.35%; background-repeat: no-repeat;background-position-x: center;background-position-y: center;background-size: contain;}
+.aboutUscontent h2{margin: 0;width: 100%;text-align: center;}
+.aboutUscontent h4{margin:40px 0 40px 0;width: 100%;text-align: center;}
 .aboutUscontent p{line-height: 40px;font-size: larger;font-weight: lighter;color: #686868;}
 .aboutUsContent1{background-image: url('../images//aboutUs/img_1.png');background-repeat: no-repeat;justify-content: space-between;display: flex;width: 100%;margin-top: 200px;}
 .aboutUsContent1 .descBox{width: 105px;color:white ; margin: 10px 100px 10px 100px;display: flex;flex-direction: row;flex-wrap: wrap;text-align: center;}
