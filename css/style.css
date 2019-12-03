@@ -455,7 +455,7 @@ footer{position: relative;}
 
 /* SIDE IMAGE CONTENT */
 .side-image-content-inFac{width: 100%; float: left; display: flex;flex-direction: column; justify-content:center;}
-.side-image-content-inFac .titleBox{background-position-y:88px;align-items: center; margin-bottom: 5%; display: flex;justify-content: center; flex-direction: row;background-image: url('../images/intelligentFactory/img_bg2.png');background-position: center; background-repeat: no-repeat;background-size: auto;}
+.side-image-content-inFac .titleBox{background-position-y:88px;align-items: center; margin-bottom: 5%; display: flex;justify-content: center; flex-direction: row;background-image: url('../images/intelligentFactory/img_bg2.png');background-position: center; background-repeat: no-repeat;background-size: contain;}
 .side-image-content-inFac .titleBox .title{margin: 10px;height: 202px;display: flex;flex-direction: column;justify-content: center;text-align: center;width: 20%;background-color: #f40c1a;margin-bottom: -5%;}
 .side-image-content-inFac .titleBox img{border:5px solid #eee; width: 50%;margin-top: 10%;margin-bottom: -5%;}
 .side-image-content-inFac .titleBox .title h2{font-size: xx-large;color: white;margin:0;}
