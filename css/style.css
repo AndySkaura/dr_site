@@ -201,8 +201,12 @@ footer{position: relative;}
 .header .language li{ float: left; list-style: none; margin: 0; margin-left: 20px; font-family: "Fjalla One";}
 .header .language li a{float: left; color: #fff; line-height: 35px;}
 .header .language li a:hover{text-decoration: none; opacity: 0.8;}
-.header .hamburger{float: right; margin-top: -5px;box-shadow: 1px 1px 15px #000, 1px 1px 15px #949393}
+.header .hamburger{ transition:background 0.25s ;float: right; margin-top: -5px;box-shadow: 1px 1px 15px #000, 1px 1px 15px #949393}
 .header .equalizer{float: right; margin-top: 5px; margin-right: 20px}
+.header .hamburger:hover{transition:background 0.5s ;background: #f84949;}
+.header .hamburger:hover .hamburger__line-in::before {
+	background-color: rgb(255, 255, 255);
+}
 /* .overflow-hidden .header .logo img{-webkit-filter: brightness(0) invert(1); filter: brightness(0) invert(1);} */
 
 /* DROPDOWN */
@@ -430,10 +434,10 @@ footer{position: relative;}
 .side-image-content .inner {width: 50%; display: flex; justify-content: center; flex-direction: column; position: relative;}
 .side-image-content .inner.bg1{ background: #f50c1a;}
 .side-image-content .inner .main-image{ width: 100%; float: left; margin: 0; margin-top: -100px; margin-bottom: 100px;}
-.side-image-content .inner .sub-image{ width: 275px;position: absolute;right: -50px;bottom: -64px;z-index: 2}
-.side-image-content .inner img{transition: 0.5s;  width: 100%; }
-.side-image-content .inner .sub-image:hover img{transition: 0.5s;  width: 100%;transform: scale(1.1); }
-.side-image-content .inner .aPop{position: absolute;height: 100%; left: 0;width: 100%;}
+.side-image-content .inner .sub-image{ transition: 0.5s; width: 275px;position: absolute;right: -50px;bottom: -64px;z-index: 2}
+.side-image-content .inner img{width: 100%; }
+.side-image-content .inner .sub-image:hover{transition: 0.5s;  width: 70% }
+/* .side-image-content .inner .aPop{position: absolute;height: 100%; left: 0;width: 100%;} */
 .side-image-content .inner .contenty{ width: 100%; float: left; padding: 0 15%; color: #fff;}
 .side-image-content .inner .contenty h5{ font-size: 12px; font-weight: 700;}
 .side-image-content .inner .contenty h5:before{content: ""; width: 4px; height: 10px; float: left; background: #fff; margin-left: -10px; margin-top: 2px;}
