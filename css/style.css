@@ -661,7 +661,7 @@ footer{position: relative;}
 .scroll-down span::before{ position: absolute; top: 0px; left: 50%; margin-left: -0.5px; width: 1px; height: 70px; background: #fff; content:"";}
 
 
-.about-us-int-hero{background-image: url('../images/aboutUs/img_2.png');padding-top: 42.35%; background-repeat: no-repeat;background-position-x: center;background-position-y: center;background-size: contain;}
+.about-us-int-hero{background-image: url('../images/aboutUs/img_2.png');padding-top: 42.35%;margin-bottom:-10%; background-repeat: no-repeat;background-position-x: center;background-position-y: center;background-size: contain;}
 .aboutUscontent h2{margin: 0;width: 100%;text-align: center;}
 .aboutUscontent h4{margin:40px 0 40px 0;width: 100%;text-align: center;}
 .aboutUscontent p{line-height: 40px;font-size: larger;font-weight: lighter;color: #686868;}
