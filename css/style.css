@@ -577,9 +577,6 @@ footer{position: relative;}
 .intelLogImages .imgIcon .imgb{display: inline;}
 .intelLogImages .imgIcon .imgw{display: none;}
 
-
-
-
 .justify-content-md-center .imgIcon{ display: flex;flex-direction: column;justify-content: center; align-items: center; width: 300px;height: 370px;margin: 25px; text-align: center;border: 2px solid rgba(90, 89, 89, 0.2);}
 .justify-content-md-center .imgIcon div p{color: #333333;line-height: 20px;font-size: 22px;font-weight:lighter; line-height: 40px; margin-top: 30px;}
 .justify-content-md-center .banner{width: 335px;height: 165px;margin: 2px; border-radius:5px 5px 5px 5px}
@@ -749,6 +746,7 @@ footer{position: relative;}
 .logistic-container{max-width: 1540px;flex-direction: column;max-width: 100%; align-items: center;display: flex;align-items: center;justify-content: center}
 /* RESPONSIVE MEDIUM  FIXES */
 @media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
+	.iframViewBox{display: none;}
 	.header{padding: 30px 60px;}
 	.slider .swiper-container .swiper-slide .inner h2{font-size: 4em;}
 
@@ -759,7 +757,9 @@ footer{position: relative;}
 	.side-image-content .inner .contenty h2{font-size: 2em; text-indent: 0;}
 	.awards h2{font-size: 3em; text-indent: 0;}
 }	
-
+@media only screen and (max-width: 1899px), only screen and (max-device-width: 1899px) {
+	.iframViewBox{display: none;}
+}	
 
 
 
@@ -852,8 +852,6 @@ footer{position: relative;}
 	.footer h2{font-size: 3em; padding: 0;}
 	.footer .social-media{display: block;}
 	.footer .footer-bar span{ width: 100%; text-align: center;}
-	
-	
 }
 
 
