@@ -356,6 +356,17 @@ footer{position: relative;}
 .works figure:hover figcaption h5{transform: translateY(0); opacity: 1;}
 .works figure:hover figcaption small{transform: translateY(0); opacity: 1;}
 
+.business  figcaption{transition: .25s; width: 100%;height: 100%;float: left;position: absolute;left: 0; bottom: 0;color: #fff;font-size: 13px;display: flex;flex-direction: column;font-weight: 700; opacity: 0; padding: 0;justify-content: center;text-align: center;}
+.business  figcaption .bg-color{  width: 100%; height: 100%; position: absolute; left: 0; top: 0; opacity: 0.9;}
+.business  figcaption .brand{ width: 100%; float: left; margin-bottom: 20px;}
+.business  figcaption .brand img{transition: .25s; width: auto !important; height: 50px; float: none;}
+.business  figcaption h5{ width: 100%; float: left;transform: translateY(-10px); opacity: 0; font-family: 'Playfair Display', serif; font-size: 20px;}
+.business  figcaption small{ width: 100%; float: left; transform: translateY(10px); opacity: 0; font-weight: 700;}
+.business:hover figcaption{transition: .25s; opacity: 1;}
+.business:hover img{transform: scale(1.05);transition: .25s;}
+.business:hover figcaption h5{transform: translateY(0); opacity: 1;}
+.business:hover figcaption small{transform: translateY(0); opacity: 1;}
+
 
 
 
