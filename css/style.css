@@ -760,9 +760,6 @@ footer{position: relative;}
 @media only screen and (max-width: 1899px), only screen and (max-device-width: 1899px) {
 	.iframViewBox{display: none;}
 }	
-
-
-
 /* RESPONSIVE TABLET FIXES */
 @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
 	.iframViewBox{display: none;}
