@@ -1,4 +1,7 @@
 (function ($) {
+	if((document.all && !window.atob)==true){
+		window.location.href='http://dingruan.com/old/';
+	}
 	$(document).ready(function () {
 		"use strict";
 
