@@ -799,7 +799,7 @@ footer{position: relative;}
 	.side-image-content-inFac .titleBox .title{height: auto;}
 	.side-image-content-inFac .titleBox .title h2{font-size: inherit;}
 	.side-image-content-inFac .titleBox .title h4{font-size: inherit;}
-	.about-studio .container .text ul{padding: 0;text-align: center;}
+	.about-studio .container .text ul{padding: 0;text-align: left;}
 	.row{margin-left: 0;margin-right: 0;justify-content:center}
 	.justify-content-md-center:nth-child(3){justify-content: center;margin-top: 0;}
 	.journal .post .post-content p{height: auto;}
@@ -807,6 +807,7 @@ footer{position: relative;}
 	.justify-content-md-center .banner{text-align: center;}
 	.container .row .construcText .construcText-text ul{padding: 0;}
 	.slider .swiper-container .swiper-slide:after{content: none;}
+	.team-members{margin-top:100px}
 }
 
 
@@ -860,7 +861,6 @@ footer{position: relative;}
 	.footer h2{font-size: 3em; padding: 0;}
 	.footer .social-media{display: block;}
 	.footer .footer-bar span{ width: 100%; text-align: center;}
-	.justify-content-md-center .jianzhuImg{width: 90%;}
 }
 
 
