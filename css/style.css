@@ -432,7 +432,7 @@ footer{position: relative;}
 .side-image-content .inner {width: 50%; display: flex; justify-content: center; flex-direction: column; position: relative;}
 .side-image-content .inner.bg1{ background: #f50c1a;}
 .side-image-content .inner .main-image{ width: 100%; float: left; margin: 0; margin-top: -100px; margin-bottom: 100px;}
-.side-image-content .inner .sub-image{ transition: 0.5s; width: 245px;position: absolute;right: -5%;bottom: -64px;z-index: 2}
+.side-image-content .inner .sub-image{ transition: 0.5s; width: 30%;position: absolute;right: -5%;bottom: -64px;z-index: 2}
 .side-image-content .inner img{width: 100%; }
 .side-image-content .inner .sub-image:hover{transition: 0.5s;  width: 100%;right: -40%; }
 /* .side-image-content .inner .aPop{position: absolute;height: 100%; left: 0;width: 100%;} */
