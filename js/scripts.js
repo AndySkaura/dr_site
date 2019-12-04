@@ -7,20 +7,19 @@
 		document.getElementById("hamburger").addEventListener("click", function () {
 			document.getElementById("link").play();
 		});
-
-
-
-
 		// EQUALIZER TOGGLE
 		// var source = "http://themezinho.net/anchor/audio/audio.mp3";
-		var source ="audio/audio.mp3";
+		var source = "audio/audio.mp3";
 		var audio = new Audio(); // use the constructor in JavaScript, just easier that way
-		audio.addEventListener("load", function () {
-			audio.play();
-		}, true);
 		audio.src = source;
 		audio.autoplay = true;
 		audio.volume = 0.2;
+		audio.addEventListener("canplaythrough", function () {
+			audio.play();
+			$("html").bind('click',null,function(){
+				audio.play();
+			})
+		}, true);
 
 		$('.equalizer').click();
 		var playing = true;
@@ -121,8 +120,6 @@
 		$('.hamburger-navigation li a').click(function (e) {
 			e.preventDefault();
 			var goTo = this.getAttribute("href");
-
-
 			setTimeout(function () {
 				window.location = goTo;
 			}, 1000);
@@ -139,6 +136,7 @@
 	});
 	// END DOCUMENT READY
 
+	
 
 	// SLIDER
 	var swiper = new Swiper('.swiper-container', {
@@ -176,17 +174,17 @@
 		},
 	});
 	function getUrlParam(param) {
-		var reg = new RegExp("(^|&)" + param + "=([^&]*)(&|$)"); 
-		var r = window.location.search.substr(1).match(reg); 
-		if (r != null) return decodeURI(r[2]); return null; 
+		var reg = new RegExp("(^|&)" + param + "=([^&]*)(&|$)");
+		var r = window.location.search.substr(1).match(reg);
+		if (r != null) return decodeURI(r[2]); return null;
 	}
-	function goToPos(){
+	function goToPos() {
 		$("html, body").animate({
 			scrollTop: $(".works").offset().top
 		}, { duration: 500, easing: "swing" });
 		return false;
 	}
-	if(getUrlParam("product"))goToPos();
+	if (getUrlParam("product")) goToPos();
 
 	$(".clickTo").click(function () {
 		goToPos();
