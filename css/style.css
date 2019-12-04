@@ -604,8 +604,8 @@ footer{position: relative;}
 .internet-chooseBox .imgBox{position: relative;width: 100%;display:flex;flex-wrap: wrap;}
 .internet-chooseBox .imgIconLeft:first-child{width: 25%;height: 400px; border: 2px solid rgba(160, 160, 160, 0.2);text-align: left;padding: 60px;background-color: #e6e4e4;}
 .internet-chooseBox .imgIconLeft:first-child h2{font-weight: bold;}
-.internet-chooseBox .imgIconLeft:first-child h3{font-weight: lighter ;color: #414141;margin-top: 10px;}
-.internet-chooseBox .imgIconLeft:first-child p{font-weight: lighter ;color: #414141;margin-top: 10px;}
+.internet-chooseBox .imgIconLeft:first-child h3{font-weight: lighter ;color: #333;margin-top: 10px;}
+.internet-chooseBox .imgIconLeft:first-child p{font-weight: lighter ;color: #333;margin-top: 10px;}
 .internet-chooseBox .flexBox{width: 75%;display: flex;flex-wrap: wrap;flex-direction: row;}
 .internet-chooseBox .flexBox .imgIcon{width: 33%;height: 200px; border: 1px solid rgba(90, 89, 89, 0.2);text-align: center;padding: 45px;background: white;}
 .internet-chooseBox .flexBox .imgIcon:hover{background: red; transition: background 1s;}
@@ -623,8 +623,8 @@ footer{position: relative;}
 
 .internet-chooseBox .imgIconLeft1:first-child{width: 20%;height: 400px; border: 2px solid rgba(160, 160, 160, 0.2);text-align: left;padding: 40px;background-color: #e6e4e4;}
 .internet-chooseBox .imgIconLeft1:first-child h2{font-weight: bold;}
-.internet-chooseBox .imgIconLeft1:first-child h3{font-weight: lighter ;color: #414141;margin-top: 10px;}
-.internet-chooseBox .imgIconLeft1:first-child p{font-weight: lighter ;color: #414141;margin-top: 10px;}
+.internet-chooseBox .imgIconLeft1:first-child h3{font-weight: lighter ;color: #333;margin-top: 10px;}
+.internet-chooseBox .imgIconLeft1:first-child p{font-weight: lighter ;color: #333;margin-top: 10px;}
 .internet-chooseBox .flexBox .imgIcon1{width: 25%;height: 200px; border: 1px solid rgba(90, 89, 89, 0.2);text-align: center;padding-top:40px;}
 .internet-chooseBox .flexBox .imgIcon1 p{color: #333333;margin-top: 20%;font-weight: normal;font-size: large;}
 
@@ -666,8 +666,8 @@ footer{position: relative;}
 .about-us-int-hero{background-image: url('../images/aboutUs/img_2.png');padding-top: 42.35%;margin-bottom:-10%; background-repeat: no-repeat;background-position-x: center;background-position-y: center;background-size: contain;}
 .aboutUscontent h2{margin: 0;width: 100%;text-align: center;}
 .aboutUscontent h4{margin:40px 0 40px 0;width: 100%;text-align: center;}
-.aboutUscontent p{line-height: 40px;font-size: larger;font-weight: lighter;color: #686868;}
-.aboutUsContent1{background-image: url('../images//aboutUs/img_1.png');background-repeat: no-repeat;justify-content: space-between;display: flex;width: 100%;margin-top: 200px;}
+.aboutUscontent p{line-height: 40px;font-size: larger;font-weight: lighter;color: #666;}
+.aboutUsContent1{background-size:cover; background-image: url('../images//aboutUs/img_1.png');background-repeat: no-repeat;justify-content: space-between;display: flex;width: 100%;margin-top: 200px;}
 .aboutUsContent1 .descBox{width: 105px;color:white ; margin: 10px 100px 10px 100px;display: flex;flex-direction: row;flex-wrap: wrap;text-align: center;}
 .aboutUsContent1 .descBox div:nth-child(1){font-size:60px;font-family: initial;}
 .aboutUsContent1 .descBox div:nth-child(2){font-size:25px;align-self:flex-end}
@@ -796,6 +796,17 @@ footer{position: relative;}
 	.solution-text-box .solution-text-bottom{bottom: auto;}
 	.equipment-construcBox3 .equipment-iconBox .iconBox{width: 40%;height: 350px;}
 	.logistics-row .imgBox{width:80%;min-width: 80%;}
+	.side-image-content-inFac .titleBox .title{height: auto;}
+	.side-image-content-inFac .titleBox .title h2{font-size: inherit;}
+	.side-image-content-inFac .titleBox .title h4{font-size: inherit;}
+	.about-studio .container .text ul{padding: 0;text-align: center;}
+	.row{margin-left: 0;margin-right: 0;justify-content:center}
+	.justify-content-md-center:nth-child(3){justify-content: center;margin-top: 0;}
+	.journal .post .post-content p{height: auto;}
+	.justify-content-md-center .banner div a{right: -25%;}
+	.justify-content-md-center .banner{text-align: center;}
+	.container .row .construcText .construcText-text ul{padding: 0;}
+	.slider .swiper-container .swiper-slide:after{content: none;}
 }
 
 
@@ -840,7 +851,7 @@ footer{position: relative;}
 	.clients ul li:after{display: none;}
 	.journal .post.highlight{margin-bottom: 50px;}
 	.journal .post figure{overflow: hidden;}
-	.journal .post figure img{ width: 150%; max-width: inherit;}
+	.journal .post figure img{ width: 150%; max-width: 100%;}
 	.journal .post.highlight .post-content{padding: 15px; padding-right: 0;}
 	.journal .post.highlight .post-content h3{font-size: 2em;}
 	.journal .post.highlight .post-content p{display: none;}
@@ -849,6 +860,7 @@ footer{position: relative;}
 	.footer h2{font-size: 3em; padding: 0;}
 	.footer .social-media{display: block;}
 	.footer .footer-bar span{ width: 100%; text-align: center;}
+	.justify-content-md-center .jianzhuImg{width: 90%;}
 }
 
 
