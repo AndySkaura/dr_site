@@ -117,9 +117,9 @@
 
 
 		// PAGE TRANSITION
-		$('.hamburger-navigation li a').on('click', function (e) {
-			$('.transition-overlay').toggleClass("show-me");
-		});
+		// $('.hamburger-navigation li a').on('click', function (e) {
+		// 	//$('.transition-overlay').toggleClass("show-me");
+		// });
 
 		$('.hamburger-navigation li a').click(function (e) {
 			e.preventDefault();
