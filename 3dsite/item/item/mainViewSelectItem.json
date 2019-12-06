@@ -1,1 +1,0 @@
-{"type":"View","props":{"width":110,"height":36},"compId":2,"child":[{"type":"Button","props":{"y":0,"x":0,"var":"bu_choose","stateNum":2,"skin":"view1.0/bu_downput.png","labelSize":14,"labelFont":"Microsoft YaHei","labelColors":"#333333,#333333","label":"地磅管理"},"compId":8}],"loadList":["view1.0/bu_downput.png"],"loadList3D":[]}
