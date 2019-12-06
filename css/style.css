@@ -412,12 +412,12 @@ footer{position: relative;}
 .clients .container .title{text-align: center;color: #333333;}
 .clients .container .title h2{font-weight: 500;line-height:27px;}
 .clients .container .title h4{opacity: 0.9;}
-.clients .container .chooseTab{text-align: center;}
-.clients .container .chooseTab table{font-size:x-large; width: 100%; border-collapse:separate; border-spacing:0px 30px;}
-.clients .container .chooseTab table a{text-decoration: none;color: #333333;}
-.clients .container .chooseTab table a:link { text-decoration: none;color: #333333}
-.clients .container .chooseTab table a:active { text-decoration:blink}
-.clients .container .chooseTab table a:hover { text-decoration:none;color: red} 
+.clients .container .chooseTab{text-align: center;display: flex;flex-direction: row;flex-wrap: wrap;font-size:x-large; width: 100%;}
+.clients .container .chooseTab .tab{width: 33%;margin-bottom: 30px;}
+.clients .container .chooseTab .tab a{text-decoration: none;color: #333333;}
+.clients .container .chooseTab .tab a:link { text-decoration: none;color: #333333}
+.clients .container .chooseTab .tab a:active { text-decoration:blink}
+.clients .container .chooseTab .tab a:hover { text-decoration:none;color: red} 
 .clients ul{ width: 100%; float: left; margin: 0; padding: 0;}
 .clients ul li{ width: 20%; float: left; margin: 0; padding: 0; list-style: none; position: relative;}
 .clients ul li figure{ width: 100%; float: left; margin: 0; padding: 0 10%;}
@@ -607,7 +607,7 @@ footer{position: relative;}
 .internet-chooseBox .imgIconLeft:first-child h3{font-weight: lighter ;color: #333;margin-top: 10px;}
 .internet-chooseBox .imgIconLeft:first-child p{font-weight: lighter ;color: #333;margin-top: 10px;}
 .internet-chooseBox .flexBox{width: 75%;display: flex;flex-wrap: wrap;flex-direction: row;}
-.internet-chooseBox .flexBox .imgIcon{width: 33%;height: 200px; border: 1px solid rgba(90, 89, 89, 0.2);text-align: center;padding: 45px;background: white;}
+.internet-chooseBox .flexBox .imgIcon{width: 33%;height: 200px; border: 1px solid rgba(90, 89, 89, 0.2);text-align: center;padding-top: 45px;background: white;}
 .internet-chooseBox .flexBox .imgIcon:hover{background: red; transition: background 1s;}
 .internet-chooseBox .flexBox .imgIcon:hover p{color:white;}
 .internet-chooseBox .flexBox .imgIcon:hover .imgw{display: inline;}
@@ -784,7 +784,7 @@ footer{position: relative;}
 	.justify-content-md-center .content1 .titleBox div{margin-left: 0; width: 100%;text-align: center;margin-bottom: 7%;color: #333333;}
 	.justify-content-md-center .desc2{width: 100%;margin-top:0}
 	.internet-chooseBox .imgIconLeft:first-child{width: 100%;}
-	.internet-chooseBox .flexBox .imgIcon{height: 400px;}
+	.internet-chooseBox .flexBox .imgIcon{width: 50%;}
 	.internet-chooseBox .flexBox{width: 100%;}
 	.justify-content-md-center .descHNT{width:100%}
 	.internet-chooseBox .imgIconLeft1:first-child{width: 100%;}
@@ -808,6 +808,13 @@ footer{position: relative;}
 	.container .row .construcText .construcText-text ul{padding: 0;}
 	.slider .swiper-container .swiper-slide:after{content: none;}
 	.team-members{margin-top:100px}
+	.equipment-construcBox3 .equipment-iconBox .iconBox p{font-size: medium;}
+	.equipment-construcBox3 .equipment-iconBox .iconBox img{width: 80%;}
+	.equipment-construcBox3 .equipment-iconBox .iconBox figcaption div{padding: 0;}
+	.equipment-construcBox3 .equipment-iconBox .iconBox figcaption div h3{font-size: small;}
+	.clients .container .chooseTab .tab{width: 100%;margin-bottom: 20px;}
+	.clients .container .chooseTab{font-size: large;}
+	.justify-content-md-center .content1 .titleBox div .desc1{text-align: left;}
 }
 
 
