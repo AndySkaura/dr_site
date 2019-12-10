@@ -1,7 +1,7 @@
 (function ($) {
 	//ie10以下跳转到旧网站
-	if((document.all && !window.atob)==true){
-		window.location.href='http://dingruan.com/old/';
+	if ((document.all && !window.atob) == true) {
+		window.location.href = 'http://dingruan.com/old/';
 	}
 	$(document).ready(function () {
 		"use strict";
@@ -19,10 +19,14 @@
 		audio.autoplay = true;
 		audio.volume = 0.2;
 		audio.addEventListener("canplaythrough", function () {
-			audio.play();
-			$("html").bind('click',null,function(){
+			var fun = function () {
 				audio.play();
-			})
+				$("html").off('click', null, fun);
+			}
+			audio.play();
+			if(audio.paused){
+				$("html").on('click', null, fun);
+			}
 		}, true);
 
 		$('.equalizer').click();
@@ -31,14 +35,11 @@
 			if (playing == false) {
 				audio.play();
 				playing = true;
-
 			} else {
 				audio.pause();
 				playing = false;
 			}
 		});
-
-
 
 		// INT HERO FADE
 		var divs = $('.int-hero .inner');
@@ -140,7 +141,7 @@
 	});
 	// END DOCUMENT READY
 
-	
+
 
 	// SLIDER
 	var swiper = new Swiper('.swiper-container', {
