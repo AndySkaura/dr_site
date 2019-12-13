@@ -1,4 +1,6 @@
+.content{background: #f1f1f1;}
 /* cem */
+
 .cem-system-int-hero{background: url(../images/insideHtml/CEMSystem/img_bg.png);background-size: cover;padding-top: 410px;}
 .cem-contact{padding-top: 0;padding-bottom: 150px;}
 .cem-box1{width: 100%;justify-content: center;}
@@ -12,7 +14,8 @@
 .cem-box1 .fun-box{width: 60%; flex-wrap: wrap;display: flex;flex-direction: row;justify-content: center;}
 .cem-box1 .fun-box .fun-item{width: 25%;display: flex;flex-direction: column;justify-content: center;align-content: center;align-items: center;}
 .cem-box1 .fun-box .fun-item .img-box img{width: 55px;height: 55px;}
-.cem-box1 .fun-box .gray{background-color: rgb(221, 221, 221);}
+.cem-box1 .fun-box .fun-item p{font-size: 18px;line-height: 30px;padding: 4%;}
+.cem-box1 .fun-box .white{background-color:white}
 
 .cem-box2{width: 100%;display: flex;flex-direction: column;justify-content: center;align-items: center;}
 .cem-box2 .div-bg{background-color:#131314;height: 350px;width: 100%;}
@@ -32,12 +35,14 @@
 .gps-box1 .title-box h3{font-size: 32px;}
 .gps-box1 .title-box p{font-size: 26px;}
 .gps-box1 .box-containe{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: center;width: 80%;}
-.gps-box1 .box-containe .show-box{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-between;align-items: center; width: 35%;margin: 2%;background-color: #2d2d2f;}
+.gps-box1 .box-containe .show-box{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-between;align-items: center; width:500px;margin: 2%;background-color: #2d2d2f;}
 .gps-box1 .box-containe .show-box .num-box{color: white;font-size: 26px;width: 20%;font-family: fantasy;}
 .gps-box1 .box-containe .show-box .num-box span{font-size: 14px;}
-.gps-box1 .box-containe .show-box .des-box{text-align: left; padding: 8%;background-color: red;color: white;width: 70%;margin: 5% 5% -5% 5%;}
+.gps-box1 .box-containe .show-box .des-box{text-align: left; padding: 8%;color: white;width: 70%;margin: 5% 5% -5% 5%;}
+.gps-box1 .box-containe .show-box:hover .des-box{background-color: red;}
+.gps-box1 .box-containe .show-box:hover .des-box p{font-size: 18px;}
 .gps-box1 .box-containe .show-box .des-box h3{font-size: 28px;line-height: 39px;}
-.gps-box1 .box-containe .show-box .des-box p{font-size: 14px;line-height: 39px;}
+.gps-box1 .box-containe .show-box .des-box p{font-size: 14px;line-height: 39px;height: 75px;transition: font-size 0.2s;}
 
 .gps-content{padding-bottom: 150px;}
 .gps-box2{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: center;background-color: #131314;padding: 0 15%;margin-top: 10%;}
@@ -59,6 +64,17 @@
     .cem-box3{margin-top: 30%;justify-content: center;}
     .cem-box3 .fun-title-box{height: auto;margin: 0;width: 100%;}
     .cem-contact{padding-bottom: 50px;}
+    .gps-box2 {padding: 0;}
+    .gps-box2 .title-box{width: 100%;margin: 0;}
+    .gps-box2 .item-box{width: 100%;}
+    .gps-box2 .item-box .fun-item{width: 50%;}
+    .gps-box2 .item-box .fun-item p{font-size: medium;}
+    .gps-box2 .item-box .fun-item img{width: 40px;}
+    .gps-box1 .box-containe .show-box .des-box h3{font-size: 19px;}
+    .gps-box1 .box-containe .show-box .des-box p{line-height: normal;}
+    .gps-box1 .box-containe .show-box:hover .des-box p{font-size: 16px;}
+
+    .gps-content{padding-bottom: 0;}
 
 }
 
