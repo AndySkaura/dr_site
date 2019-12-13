@@ -135,9 +135,6 @@
 		if ($(window).width() < 991) {
 			$('.works figure').removeClass('perspective-box');
 		}
-
-
-
 	});
 	// END DOCUMENT READY
 

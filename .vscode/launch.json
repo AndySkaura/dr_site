@@ -84,6 +84,22 @@
             "file": "${workspaceRoot}/equipment.html",
             "webRoot": "${workspaceFolder}",
             "sourceMaps": true
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "cem系统",
+            "file": "${workspaceRoot}/insideHtml/CEMSystem.html",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "GPS系统",
+            "file": "${workspaceRoot}/insideHtml/GPSSystem.html",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true
         }
     ]
 }

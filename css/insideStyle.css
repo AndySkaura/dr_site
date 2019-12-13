@@ -1,0 +1,65 @@
+/* cem */
+.cem-system-int-hero{background: url(../images/insideHtml/CEMSystem/img_bg.png);background-size: cover;padding-top: 410px;}
+.cem-contact{padding-top: 0;padding-bottom: 150px;}
+.cem-box1{width: 100%;justify-content: center;}
+.cem-box1 .fun-title-box{background-color: red;width: 12%;margin-top: -3%;height: 500px;margin-bottom: -3%;z-index: 1;}
+.cem-box3 .fun-title-box{background-color: red; width: 15%;height: 550px;margin: -5% 5% 5% 15%;}
+.fun-title-box img{margin-top: 10%;margin-left: 10%;}
+.fun-title-box div p{color: white;font-size: 26px;text-align: center;}
+.fun-title-box #cem-line{width: 20px;height: 2px;background-color: white;}
+
+
+.cem-box1 .fun-box{width: 60%; flex-wrap: wrap;display: flex;flex-direction: row;justify-content: center;}
+.cem-box1 .fun-box .fun-item{width: 25%;display: flex;flex-direction: column;justify-content: center;align-content: center;align-items: center;}
+.cem-box1 .fun-box .fun-item .img-box img{width: 55px;height: 55px;}
+.cem-box1 .fun-box .gray{background-color: rgb(221, 221, 221);}
+
+.cem-box2{width: 100%;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.cem-box2 .div-bg{background-color:#131314;height: 350px;width: 100%;}
+.cem-box2 .div-text{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: center;color: white;margin-top: -11%;}
+.cem-box2 .div-text .img-com{z-index: 1;}
+.cem-box2 .div-text .text-box{width: 50%;background-color: red;margin-left:-20%;height: 800px;padding: 10% 12.5% 0 22%;}
+.cem-box2 .div-text .text-box h3{line-height: 40px;margin-bottom: 20%;}
+.cem-box2 .div-text .text-box p{line-height: 39px;font-size: 16px;}
+
+.cem-box3 {background-color: #131314;margin-top: 10%;display: flex;flex-direction: row;justify-content: left;align-items: center;flex-wrap: wrap;}
+.cem-box3 .text-box{line-height: 39px;font-size: 26px;color: white;}
+
+
+
+/* gps */
+.gps-box1{display: flex;flex-direction: column;flex-wrap: wrap;justify-content: center;align-items: center;text-align: center;width: 100%;margin-top: 5%;}
+.gps-box1 .title-box h3{font-size: 32px;}
+.gps-box1 .title-box p{font-size: 26px;}
+.gps-box1 .box-containe{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: center;width: 80%;}
+.gps-box1 .box-containe .show-box{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-between;align-items: center; width: 35%;margin: 2%;background-color: #2d2d2f;}
+.gps-box1 .box-containe .show-box .num-box{color: white;font-size: 26px;width: 20%;font-family: fantasy;}
+.gps-box1 .box-containe .show-box .num-box span{font-size: 14px;}
+.gps-box1 .box-containe .show-box .des-box{text-align: left; padding: 8%;background-color: red;color: white;width: 70%;margin: 5% 5% -5% 5%;}
+.gps-box1 .box-containe .show-box .des-box h3{font-size: 28px;line-height: 39px;}
+.gps-box1 .box-containe .show-box .des-box p{font-size: 14px;line-height: 39px;}
+
+.gps-content{padding-bottom: 150px;}
+.gps-box2{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: center;background-color: #131314;padding: 0 15%;margin-top: 10%;}
+.gps-box2 .title-box{background-color: red;width: 25%;color: white;text-align: center;padding: 15% 0;margin: -15% 0;}
+.gps-box2 .title-box h3{font-size: 28px;}
+.gps-box2 .title-box p{font-size: 26px;}
+.gps-box2 .item-box{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: center;width: 75%;padding: 3% 0;}
+.gps-box2 .item-box .fun-item{width: 30%;display: flex;flex-direction: column;flex-wrap: wrap;justify-content: center;align-items: center;padding: 1%;}
+.gps-box2 .item-box .fun-item p{color: white;padding: 5%;font-size: 26px;}
+
+
+
+@media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+    .cem-box1 .fun-title-box{width: 100%;margin: 0;height: auto;}
+    .cem-box1 .fun-box{width: 100%;}
+    .cem-box1 .fun-box .fun-item{width: 50%;height: 200px;}
+    .cem-box2 .div-bg{height: 100px;}
+    .cem-box2 .div-text .text-box{width: 100%;padding: 10%;margin: 0;text-align: center;height: auto;}
+    .cem-box3{margin-top: 30%;justify-content: center;}
+    .cem-box3 .fun-title-box{height: auto;margin: 0;width: 100%;}
+    .cem-contact{padding-bottom: 50px;}
+
+}
+
+
