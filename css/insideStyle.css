@@ -54,6 +54,22 @@
 .gps-box2 .item-box .fun-item p{color: white;padding: 5%;font-size: 26px;}
 
 
+/* meter*/
+.meter-box1{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: center;background-color: #131314;margin-top: 5%;padding: 0 5% ;}
+.meter-box1 .desc-title-box{margin: -9% 5% 5% 5%;height: 400px;padding: 4% 0 0 2%;color: white;display: flex;flex-direction: column;flex-wrap: wrap;background-color: red;width: 20%;}
+.meter-box1 .desc-title-box .white{background-color: white;width: 2px;height: 20px;}
+.meter-box1 .desc-title-box p{font-size: 26px;margin-top: 1rem;}
+.meter-box1 .desc-inside-box{padding: 2% 0;width: 55%;color: white;line-height: 27px;font-size: 16px;}
+.meter-img-box{display: flex;justify-content: center;}
+.meter-box2{display: flex;flex-direction: row;justify-content: center;align-items: center;flex-wrap: wrap;text-align: center;margin: 10% 0;}
+.meter-box2 .desc-title-box{width: 100%;margin-bottom: 3%;}
+.meter-box2 .desc-title-box h3{font-size: 32px;}
+.meter-box2 .desc-title-box p{font-size: 26px;}
+.meter-box2 .icon-item{width: 20%;}
+.meter-box2 .icon-item p{margin: 5%;font-size: 20px;}
+
+
+
 
 @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
     .cem-system-int-hero{padding-top: 200px;}
@@ -77,6 +93,11 @@
     .gps-box1 .box-containe .show-box:hover .des-box p{font-size: 16px;}
 
     .gps-content{padding-bottom: 0;}
+
+    .meter-box1{flex-direction: row-reverse;}
+    .meter-box1 .desc-title-box{width: 80%;margin: 0;}
+    .meter-box1 .desc-inside-box{width: 100%;}
+    .meter-box2 .icon-item{width: 50%;}
 
 }
 

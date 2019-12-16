@@ -100,6 +100,14 @@
             "file": "${workspaceRoot}/insideHtml/GPSSystem.html",
             "webRoot": "${workspaceFolder}",
             "sourceMaps": true
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "地磅",
+            "file": "${workspaceRoot}/insideHtml/loadometer.html",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true
         }
     ]
 }
