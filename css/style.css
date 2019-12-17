@@ -432,7 +432,7 @@ footer{position: relative;}
 .side-image-content .inner {width: 50%; display: flex; justify-content: center; flex-direction: column; position: relative;}
 .side-image-content .inner.bg1{ background: #f50c1a;}
 .side-image-content .inner .main-image{ width: 100%; float: left; margin: 0; margin-top: -100px; margin-bottom: 100px;}
-.side-image-content .inner .sub-image{ transition: 0.5s; width: 30%;position: absolute;right: -5%;bottom: -64px;z-index: 2}
+.side-image-content .inner .sub-image{ transition: 0.5s; width: 30%;position: absolute;right: -5%;bottom: -6%;z-index: 2}
 .side-image-content .inner img{width: 100%; }
 .side-image-content .inner .sub-image:hover{transition: 0.5s;  width: 100%;right: -40%; }
 /* .side-image-content .inner .aPop{position: absolute;height: 100%; left: 0;width: 100%;} */
@@ -680,7 +680,7 @@ footer{position: relative;}
 .aboutUsContent2 .positionBox div a:visited { text-decoration:none;color: #686868;}
 .aboutUsContent2 .positionBox div a:hover { text-decoration:none;color: #F50C19;}
 
-.container .row .construcTitle{margin: 100px 0 100px 0;z-index: 1;}
+.container .row .construcTitle{padding: 100px 0 100px 0;z-index: 1;}
 .container .row .construcText .construcText-img{position: absolute;left: 26%;top: 4%;}
 .container .row .construcText {width: 50%;}
 .container .row .construcText .construcText-text{position: relative;;top: 35%;margin-left: 2%; display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-between;align-items: center;} 
