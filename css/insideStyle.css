@@ -21,7 +21,7 @@
 .cem-box2 .div-bg{background-color:#131314;height: 350px;width: 100%;}
 .cem-box2 .div-text{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: center;color: white;margin-top: -11%;}
 .cem-box2 .div-text .img-com{z-index: 1;}
-.cem-box2 .div-text .text-box{width: 50%;background-color: red;margin-left:-20%;height: 800px;padding: 10% 12.5% 0 22%;}
+.cem-box2 .div-text .text-box{width: 50%;background-color: red;margin-left:-20%;height: 800px;padding: 10% 10% 0 22%;}
 .cem-box2 .div-text .text-box h3{line-height: 40px;margin-bottom: 20%;}
 .cem-box2 .div-text .text-box p{line-height: 39px;font-size: 16px;}
 
@@ -51,7 +51,7 @@
 .gps-box2 .title-box p{font-size: 26px;}
 .gps-box2 .item-box{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: center;width: 75%;padding: 3% 0;}
 .gps-box2 .item-box .fun-item{width: 30%;display: flex;flex-direction: column;flex-wrap: wrap;justify-content: center;align-items: center;padding: 1%;}
-.gps-box2 .item-box .fun-item p{color: white;padding: 5%;font-size: 26px;}
+.gps-box2 .item-box .fun-item p{color: white;padding: 5%;font-size: 18px;}
 
 .gps-box3{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: center;margin-top: 10%;}
 .gps-box3 .img-item-box img:hover{transform: scale(1.2);transition: .25s;}
@@ -83,7 +83,9 @@
 .meter-box2 .icon-item p{margin: 5%;font-size: 20px;}
 
 
-
+@media only screen and (max-width: 1630px), only screen and (max-device-width: 1630px) {
+    .cem-box2 .div-text .text-box{width: 80%;padding: 10%;margin: 0;text-align: center;height: auto;}
+}
 
 @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
     .cem-system-int-hero{padding-top: 200px;}

@@ -141,12 +141,29 @@
 
 
 	// SLIDER
-	var swiper = new Swiper('.swiper-container', {
+	var swiper = new Swiper('.swiper-container-slow', {
 		speed: 600,
 		parallax: true,
 		loop: true,
 		autoplay: {
-			delay: 10000,
+			delay: 8000,
+			disableOnInteraction: true,
+		},
+		pagination: {
+			el: '.swiper-pagination',
+			type: 'fraction'
+		},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev'
+		},
+	});
+	var swiper = new Swiper('.swiper-container-fast', {
+		speed: 600,
+		parallax: true,
+		loop: true,
+		autoplay: {
+			delay: 1000,
 			disableOnInteraction: true,
 		},
 		pagination: {
