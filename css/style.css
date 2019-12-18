@@ -639,7 +639,7 @@ footer{position: relative;}
 .internet-chooseBox .flexBox .imgIcon1:hover .imgw{display: inline;}
 .internet-chooseBox .flexBox .imgIcon1:hover .imgb{display: none;}
 .internet-chooseBox .flexBox .imgIcon1 .imgw{display: none;}
-.internet-chooseBox .flexBox .imgIcon1 .imgb{width: 50px;height: 60px;}
+/* .internet-chooseBox .flexBox .imgIcon1 .imgb{width: 50px;height: 60px;} */
 
 /* FOOTER */
 .footer-spacing{ width: 100%; float: left;}
