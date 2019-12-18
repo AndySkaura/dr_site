@@ -621,9 +621,9 @@ footer{position: relative;}
 .justify-content-md-center .descHNT h3{margin-top: 20px;}
 .justify-content-md-center .descHNT smalll{font-size: small;line-height: 27px;}
 .justify-content-md-center .imgHnt{margin-right: -10%;} 
-.justify-content-md-center .jianzhuImg .swiper-container{width: 250px;height: 530px;top: 5.5%;left: 4.4%;z-index: 0;position: absolute;}
-.justify-content-md-center .imgHnt .swiper-container{width: 250px;height: 530px;top: 5.5%;left: 6%;z-index: 0;position: absolute;}
-.justify-content-md-center .jianzhuImg .swiper-container .swiper-slide{background-size: contain;background-repeat: no-repeat;}
+.justify-content-md-center .jianzhuImg .swiper-container{width: 255px;height: 530px;top: 5.3%;left: 4%;z-index: 0;position: absolute;}
+.justify-content-md-center .imgHnt .swiper-container{width: 255px;height: 530px;top: 5.9%;left: 7.6%;z-index: 0;position: absolute;}
+.justify-content-md-center .jianzhuImg .swiper-container .swiper-slide{background-size: cover;background-repeat: no-repeat;}
 
 .justify-content-md-center .jianzhuImg img{position: relative;z-index: 1; pointer-events: none;}
 

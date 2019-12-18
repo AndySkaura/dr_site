@@ -179,10 +179,10 @@
 		$(".slider").css("height", $(window).width() * (970 / 1900) + "px");
 		$(".swiper-box").css("height", $(".swiper-box").width() * (762 / 1800) + "px");
 		$(".jianzhuImg .swiper-container").css("height", $(".jianzhuImg img").height() / 603 * 530 + "px");
-		$(".jianzhuImg .swiper-container").css("width", $(".jianzhuImg img").width() / 434 * 250 + "px");
+		$(".jianzhuImg .swiper-container").css("width", $(".jianzhuImg img").width() / 434 * 255 + "px");
 	})
 	$(".jianzhuImg .swiper-container").css("height", $(".jianzhuImg img").height() / 603 * 530 + "px");
-	$(".jianzhuImg .swiper-container").css("width", $(".jianzhuImg img").width() / 434 * 250 + "px");
+	$(".jianzhuImg .swiper-container").css("width", $(".jianzhuImg img").width() / 434 * 255 + "px");
 
 
 	$(".btn-contact").click(function () {
