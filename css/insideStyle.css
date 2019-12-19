@@ -54,11 +54,31 @@
 .gps-box2 .item-box .fun-item p{color: white;padding: 5%;font-size: 18px;}
 
 .gps-box3{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: center;margin-top: 10%;}
-.gps-box3 .img-item-box{width: 30%;background-color: white;border-radius: 2px;}
+.gps-box3 .img-item-box{width: 623px;background-color: white;border-radius: 2px;text-align: center;font-size: large;}
 .gps-box3 .img-item-box:hover{transform: scale(1.2);transition: .25s;}
 .gps-box3 .desc-text{padding: 5% 10%;margin-top: 5%; background-image: url('../images/insideHtml/GPSSystem/5.png');width: 100%;background-size: cover;background-position: center;background-repeat: no-repeat;}
 .gps-box3 .desc-text p{color: white;}
-.gps-box3 .bigImg{margin-top: 2%;transition: 0.25s;}
+.gps-box3 .bigImg{position: relative;margin-top: 10%;}
+.gps-box3 .bigImg .bigImg-button{transition: 0.25s; box-shadow: 0 0 6px 1px #dad6d6;padding: 4%;width: 20%;border-radius: 50%;display: flex;flex-direction: column; background-color: white;align-items: center;justify-content: center; position: absolute;}
+.gps-box3 .bigImg .bigImg-button div:nth-of-type(1){display: block;}
+.gps-box3 .bigImg .bigImg-button div:nth-of-type(2){display: none;}
+
+.gps-box3 .bigImg .bigImg-button p{text-align: center;color: black;font-size: 17px;width: 100%;height: 17px;}
+.gps-box3 .bigImg .bigImg-button:hover{background-color: red;}
+.gps-box3 .bigImg .bigImg-button:hover div:nth-of-type(1){display: none;}
+.gps-box3 .bigImg .bigImg-button:hover div:nth-of-type(2){display: block;}
+.gps-box3 .bigImg .bigImg-button:hover p{color: white;}
+
+.gps-box3 .bigImg .bigImg-button:nth-of-type(1){top: 10%;left: -4%;}
+.gps-box3 .bigImg .bigImg-button:nth-of-type(2){top: -13%;left: 40.5%;}
+.gps-box3 .bigImg .bigImg-button:nth-of-type(3){top: 10%;right:0%;}
+.gps-box3 .bigImg .bigImg-button:nth-of-type(4){bottom: 0%;left: 7%;}
+.gps-box3 .bigImg .bigImg-button:nth-of-type(5){bottom: 0%;right: 9%;}
+.gps-box3 .bigImg img:nth-of-type(1){display: block;}
+.gps-box3 .bigImg img:nth-of-type(2){display: none;}
+
+
+
 @keyframes pingPong
 {
 0% {transform: rotate(0deg);}
@@ -66,7 +86,7 @@
 75% {transform: rotate(-4deg);}
 100%{transform: rotate(0deg);}
 }
-.gps-box3 .bigImg:hover{animation:pingPong 0.25s;}
+/* .gps-box3 .bigImg:hover{animation:pingPong 0.25s;} */
 
 /* meter*/
 .meter-box1{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: center;background-color: #131314;margin-top: 5%;padding: 0 5% ;}
@@ -77,6 +97,7 @@
 .meter-box1 .desc-inside-box{padding: 2% 0;width: 56%;color: white;line-height: 27px;font-size: 16px;}
 
 .meter-img-box{display: flex;justify-content: center;margin: 4% 0;}
+.meter-img-box video{width: 60%;}
 .meter-box2{display: flex;flex-direction: row;justify-content: center;align-items: center;flex-wrap: wrap;text-align: center;margin: 10% 0;}
 .meter-box2 .desc-title-box{width: 100%;margin-bottom: 3%;}
 .meter-box2 .desc-title-box h3{font-size: 32px;}
@@ -109,13 +130,17 @@
     .gps-box1 .box-containe .show-box .des-box h3{font-size: 19px;}
     .gps-box1 .box-containe .show-box .des-box p{line-height: normal;}
     .gps-box1 .box-containe .show-box:hover .des-box p{font-size: 16px;}
-
+    .gps-box3 .bigImg img:nth-of-type(1){display: none;}
+    .gps-box3 .bigImg img:nth-of-type(2){display: block;}
+    .gps-box3 .bigImg .bigImg-button{display: none;}
+    .gps-box3 .bigImg{margin-top: 0;}
     .gps-content{padding-bottom: 0;}
 
     .meter-box1{flex-direction: row-reverse;}
     .meter-box1 .desc-title-box{width: 80%;margin: 0;}
     .meter-box1 .desc-inside-box{width: 100%;}
     .meter-box2 .icon-item{width: 50%;}
+    .meter-img-box video{width: 100%;}
 
 }
 
