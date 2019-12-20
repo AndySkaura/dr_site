@@ -108,6 +108,14 @@
             "file": "${workspaceRoot}/insideHtml/loadometer.html",
             "webRoot": "${workspaceFolder}",
             "sourceMaps": true
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "运砼帮",
+            "file": "${workspaceRoot}/insideHtml/concreteAPP.html",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true
         }
     ]
 }
