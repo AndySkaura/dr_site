@@ -127,9 +127,10 @@
 .app-box2 .show-box1 .show-box1-contaier{height: 800px; display: flex;flex-direction: row;flex-wrap: wrap;align-items: center;justify-content: center; width:calc(100% - 100px);left:100px;top:100px; z-index: 1;background: url('../images/insideHtml/concreteAPP/img_bg1.png');background-size: cover;background-repeat: no-repeat;position: absolute;}
 .desc-box{line-height: 25px;text-align: left;}
 .desc-box h3{font-size: 34px;}
-.desc-box small{font-size: 16px;}
+.desc-box small{font-size: 16px;opacity: 0.6;}
 .desc-box p{font-size: 20px  ;margin-top: 3%;font-family: monospace;}
 .app-box2 .show-box1 .show-box1-contaier .desc-box{color: white;margin: 20%;}
+.app-box2 .show-box1 .show-box1-contaier .desc-box small{opacity: 0.5;}
 .app-box2 .show-box1 .show-box1-contaier .img-box{margin: -170px 5% 5% 5%;}
 
 .app-box2 .show-box2{width: 100%;position: relative;background-color: white;}
@@ -137,26 +138,30 @@
 .app-box2 .show-box2 .show-bg-yellow-bottom{width: 25%;height: 400px;position: absolute;bottom: 0%;right: 0;background-color: #ffc408;}
 .app-box2 .show-box2 .show-box2-contaier{position: relative; display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: center;}
 .app-box2 .show-box2 .show-box2-contaier .desc-box{margin:0 15% 10% 0%;}
-.app-box2 .show-box2 .show-box2-contaier .desc-box small{color:#5b5b5d;}
+.app-box2 .show-box2 .show-box2-contaier .desc-box small{color:#5b5b5d;opacity: 1;}
 .app-box2 .show-box2 .show-box2-contaier .img-box{margin:5% 10%;}
 .show-box-contaier{width: 100%; display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: center;}
 .show-box-contaier .img-box{margin: 5% 10%;}
 
 .app-box2 .show-box3{background: url('../images/insideHtml/concreteAPP/img_bg2.png');background-size: cover;background-repeat: no-repeat;justify-content: space-between;}
-.app-box2 .show-box3 .desc-box{padding: 13%; background-color: #55e6af;color: white;width: 900px;height: 600px;display: flex;flex-direction: column;justify-content: center;}
+.app-box2 .show-box3 .desc-box{padding: 13%; background-color: #55e6af;color: white;width: 50%;height: 600px;display: flex;flex-direction: column;justify-content: center;}
 .app-box2 .show-box3 .img-box{margin-right: 15%;}
 
-.app-box2 .show-box4{background:url('../images/insideHtml/concreteAPP/img_bg4.png');background-repeat: no-repeat;background-position: center;}
+.app-box2 .show-box4{background:url('../images/insideHtml/concreteAPP/img_bg4.png');background-repeat: no-repeat;background-position: center;background-size: auto;}
 .app-box2 .show-box4 .img-box{margin: 5% 15%;}
 .app-box2 .show-box4 .desc-box{margin-right: 20%;color: white;}
 .app-box2 .show-box5{background-color: #131314;margin-top: 5%;}
 .app-box2 .show-box5 .desc-box{margin-top: -20%; padding: 3%; background-color: #55e6af;width: 400px;height: 700px;display: flex;flex-direction: column;justify-content: center;color: white;}
 
 .app-box2 .show-box6{background: url('../images/insideHtml/concreteAPP/img_bg3.png');background-repeat: no-repeat;background-size: cover;justify-content: space-between;}
-.app-box2 .show-box6 .desc-box{padding: 10%; background-color: #ffc408;width: 880px;height: 540px;display: flex;flex-direction: column;justify-content: center;color: white}
+.app-box2 .show-box6 .desc-box{padding: 10%; background-color: #ffc408;width: 50%;height: 540px;display: flex;flex-direction: column;justify-content: center;color: white}
 .app-box2 .show-box6 .img-box{margin: 5% 10% 5% 16%;}
-@media only screen and (max-width: 1630px), only screen and (max-device-width: 1630px) {
+
+@media only screen and (max-width: 1750px), only screen and (max-device-width: 1750px) {
     .cem-box2 .div-text .text-box{width: 80%;padding: 10%;margin: 0;text-align: center;height: auto;}
+    .app-box2 .show-box1 .show-box1-contaier .desc-box{margin: 0;}
+    .app-box2 .show-box6 .img-box{margin: 5% 0%;}
+    .app-box2 .show-box3 .img-box{margin-right: 0%;}
 }
 
 @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
@@ -190,7 +195,10 @@
     .meter-box1 .desc-inside-box{width: 100%;}
     .meter-box2 .icon-item{width: 50%;}
     .meter-img-box video{width: 100%;}
-
+    .app-box2 .show-box6 .desc-box{width: 100%;}
+    .app-box2 .show-box3 .desc-box{width: 100%;}
+    .app-box1 .box-containe .show-box .des-box h3{font-size: 18px;}
+    .app-box2 .show-box4{background-size: cover;}
 }
 
 
