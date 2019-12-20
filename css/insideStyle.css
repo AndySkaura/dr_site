@@ -6,6 +6,17 @@
 .cem-box1{width: 100%;justify-content: center;}
 .cem-box1 .fun-title-box{background-color: red;width: 12%;margin-top: -3%;height: 500px;margin-bottom: -3%;z-index: 1;}
 .cem-box3 .fun-title-box{background-color: red; width: 15%;height: 550px;margin: -5% 5% 5% 15%;}
+.cem-box4{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: center;text-align: center;}
+.cem-box4 div:hover img{transform: scale(1.2);transition: 0.25s;}
+.cem-box4 div{width: 623px;}
+.cem-box4 div p{font-size: 16px;text-align: center;}
+.cgm-box4 div{margin: 2%;}
+.cgm-box4 div p{padding: 5%;}
+.csm-box4{flex-direction: column;}
+.csm-box4 div{width: auto;}
+.csm-box4 div p{padding:5% 15%;text-align: left;}
+.csm-box4 div{margin: 2%;}
+
 .fun-title-box img{margin-top: 10%;margin-left: 10%;}
 .fun-title-box div p{color: white;font-size: 26px;text-align: center;}
 .fun-title-box #cem-line{width: 20px;height: 2px;background-color: white;}
