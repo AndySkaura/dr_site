@@ -124,6 +124,14 @@
             "file": "${workspaceRoot}/insideHtml/IntelligentConstruction/projectProgress.html",
             "webRoot": "${workspaceFolder}",
             "sourceMaps": true
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "项目质量",
+            "file": "${workspaceRoot}/insideHtml/IntelligentConstruction/projectQuality.html",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true
         }
     ]
 }

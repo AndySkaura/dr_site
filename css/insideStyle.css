@@ -193,6 +193,22 @@
 .pro-content4 .content4-desc-box{align-self: flex-start;margin-top: 6%;width: auto;}
 .pro-box2 .pro-content4{justify-content: left;}
 
+.qua-box-first{margin-top: 8%;}
+.qua-box1{ padding: 0 15%; display: flex;flex-direction: column;justify-content: center;align-items: center;background:#131314;background-size: cover;background-repeat: no-repeat;color: white;}
+.map-bg{background: url('../images/insideHtml/projectProgress/mapBJ.png');}
+.qua-box1 .qua-show-box{width: 100%;display: flex;flex-direction: row;justify-content: space-between;align-items: center;font-size: 22px;flex-wrap: wrap;padding: 5% 0;}
+.qua-box-first .qua-show-box{padding: 0;}
+.qua-box1 .qua-show-box .qua-show-title{background-color: red;padding: 9% 1%;width: 20%;margin-top: -4%;}
+.qua-box1 .qua-show-box .qua-show-div{font-weight: bold;font-size: xx-large;text-align: center;padding: 1%;background-color:#af0404;color: white;}
+.qua-box1 .qua-show-box .qua-show-desc{width: 25%;}
+.qua-box1 .qua-show-box .qua-show-desc-half{width: 45%;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.qua-box1 .qua-show-box .qua-show-desc h3{margin:8% 0;text-align: center;}
+.qua-box1 .qua-show-box .qua-show-img{width: 49%;}
+.qua-show-div-right{position: relative;right: -10%;}
+.qua-show-div-top{align-self: flex-start;}
+.qua-show-div-bottom{align-self: flex-end;}
+.qua-box-white-bg{background: url(../images/insideHtml/projectQuality/bg.png);color: black;}
+.qua-box1 p{font-size: 20px;}
 
 
 @media only screen and (max-width: 1750px), only screen and (max-device-width: 1750px) {
@@ -245,4 +261,13 @@
     .pro-box1 .pro-show-box2{margin-top: 10%;}
     .pro-box1 .pro-show-box3{margin-top: 10%;}
     .pro-box1 .pro-show-box .pro-show-text{margin: 0;}
+
+    .qua-box1 .qua-show-box .qua-show-title{width: 100%;}
+    .qua-box1 .qua-show-box .qua-show-div{display: none;}
+    .qua-box1 .qua-show-box .qua-show-desc{width: 100%;}
+    .qua-box1 .qua-show-box2{margin-top: 10%;}
+    .qua-box1 .qua-show-box3{margin-top: 10%;}
+    .qua-box1 .qua-show-box .qua-show-text{margin: 0;}
+    .qua-box1 .qua-show-box .qua-show-img{width: 100%;}
+
 }
