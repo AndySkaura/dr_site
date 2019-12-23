@@ -116,6 +116,14 @@
             "file": "${workspaceRoot}/insideHtml/concreteAPP.html",
             "webRoot": "${workspaceFolder}",
             "sourceMaps": true
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "项目进度管理",
+            "file": "${workspaceRoot}/insideHtml/projectProgress.html",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true
         }
     ]
 }
