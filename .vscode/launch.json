@@ -132,6 +132,14 @@
             "file": "${workspaceRoot}/insideHtml/IntelligentConstruction/projectQuality.html",
             "webRoot": "${workspaceFolder}",
             "sourceMaps": true
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "罐仓门禁系统",
+            "file": "${workspaceRoot}/insideHtml/intelligentProduction/tankAccessControl.html",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true
         }
     ]
 }
