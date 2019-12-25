@@ -235,6 +235,8 @@
 .int-production-box .int-pro-show-box3 .desc-box{line-height: 30px;min-height: 250px;}
 .int-production-box .int-pro-show-box3{padding: 3% 0 8% 0;}
 .int-production-box .int-pro-title{width: 100%;text-align: center;}
+.int-production-box .int-pro-title h3{font-weight: bold;}
+
 .int-production-box:nth-of-type(1) .int-pro-title{margin-top: 5%;}
 .int-production-box .int-pro-show-box2 .desc-box p{color: white;}
 .int-production-box .int-pro-show-box .desc-box h3{font-size: 32px;}
@@ -248,17 +250,19 @@
 .mat-box-first .mat-show-box{padding: 0;}
 .mat-box1 .mat-show-box .mat-show-title{background-color: red;margin-top: -4%;padding: 11% 4%;width: 25%;}
 .mat-box1 .mat-show-box .mat-show-div{font-weight: bold;font-size: xx-large;text-align: center;padding: 1%;background-color:#af0404;color: white;}
-.mat-box1 .mat-show-box .mat-show-desc{width: 25%;}
-.mat-box1 .mat-show-box .mat-show-desc-half{width: 45%;display: flex;flex-direction: column;justify-content: center;align-items: center;}
-.mat-box1 .mat-show-box .mat-show-desc h3{margin:8% 0;text-align: center;}
+.mat-box1 .mat-show-box .mat-show-desc{width: 25%;text-align: center;}
+.mat-box1 .mat-show-box .mat-show-desc-half{width: 45%;display: flex;flex-direction: column;justify-content: center;align-items: center;text-align: left;}
+.mat-box1 .mat-show-box .mat-show-desc h3{margin:3% 0;text-align: center;font-size: 33px;}
 .mat-box1 .mat-show-box .mat-show-img{width: 49%;}
 .mat-show-div-right{position: relative;right: -10%;}
 .mat-show-div-top{align-self: flex-start;}
 .mat-show-div-bottom{align-self: flex-end;}
 .mat-box-white-bg{background: url(../images/insideHtml/projectQuality/bg.png);color: black;}
-.mat-box1 p{font-size: 20px;color:white;}
+.mat-box1 p{font-size: 20px;color:white;font-weight: lighter;}
 .mat-box-white-bg p{color: #333333;}
 .mat-box1 .mat-show-box .mat-show-img:hover{transition: .1s;transform: scale(1.2);}
+.mat-box1 .big-title{text-align: center;margin-top: 10%;}
+.mat-box1 .big-title h3{font-weight: bold;}
 
 .content .img-connect{background: url(../images/insideHtml/img_connect.png);width: 100%;height: 286px;}
 
