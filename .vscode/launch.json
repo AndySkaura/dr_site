@@ -140,6 +140,14 @@
             "file": "${workspaceRoot}/insideHtml/intelligentProduction/tankAccessControl.html",
             "webRoot": "${workspaceFolder}",
             "sourceMaps": true
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "物料系统",
+            "file": "${workspaceRoot}/insideHtml/IntelligentConstruction/materialManagement.html",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true
         }
     ]
 }

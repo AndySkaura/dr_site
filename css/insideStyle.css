@@ -195,7 +195,7 @@
 
 .qua-box-first{margin-top: 8%;}
 .qua-box1{ padding: 0 15%; display: flex;flex-direction: column;justify-content: center;align-items: center;background:#131314;background-size: cover;background-repeat: no-repeat;color: white;}
-.map-bg{background: url('../images/insideHtml/projectProgress/mapBJ.png');}
+.map-bg{background: url('../images/insideHtml/projectProgress/mapBJ.png');background-size: cover;}
 .qua-box1 .qua-show-box{width: 100%;display: flex;flex-direction: row;justify-content: space-between;align-items: center;font-size: 22px;flex-wrap: wrap;padding: 5% 0;}
 .qua-box-first .qua-show-box{padding: 0;}
 .qua-box1 .qua-show-box .qua-show-title{background-color: red;margin-top: -4%;padding: 11% 4%;width: 25%;}
@@ -239,6 +239,26 @@
 .int-production-box .int-pro-show-box2 .desc-box p{color: white;}
 .int-production-box .int-pro-show-box .desc-box h3{font-size: 32px;}
 .int-production-box .int-pro-show-box .desc-box h3 span{font-size: 26px;}
+
+
+.mat-box1{ padding: 0 10%; display: flex;flex-direction: column;justify-content: center;align-items: center;background:#131314;background-size: cover;background-repeat: no-repeat;color: white;}
+.mat-box-first{margin-top: 8%;padding: 0 15%;}
+.map-bg-red{background: url('../images/insideHtml/materialManagement/bj.png');background-size: cover;padding: 5% 10%;}
+.mat-box1 .mat-show-box{width: 100%;display: flex;flex-direction: row;justify-content: space-between;align-items: center;font-size: 22px;flex-wrap: wrap;padding: 5% 0;}
+.mat-box-first .mat-show-box{padding: 0;}
+.mat-box1 .mat-show-box .mat-show-title{background-color: red;margin-top: -4%;padding: 11% 4%;width: 25%;}
+.mat-box1 .mat-show-box .mat-show-div{font-weight: bold;font-size: xx-large;text-align: center;padding: 1%;background-color:#af0404;color: white;}
+.mat-box1 .mat-show-box .mat-show-desc{width: 25%;}
+.mat-box1 .mat-show-box .mat-show-desc-half{width: 45%;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.mat-box1 .mat-show-box .mat-show-desc h3{margin:8% 0;text-align: center;}
+.mat-box1 .mat-show-box .mat-show-img{width: 49%;}
+.mat-show-div-right{position: relative;right: -10%;}
+.mat-show-div-top{align-self: flex-start;}
+.mat-show-div-bottom{align-self: flex-end;}
+.mat-box-white-bg{background: url(../images/insideHtml/projectQuality/bg.png);color: black;}
+.mat-box1 p{font-size: 20px;color:white;}
+.mat-box-white-bg p{color: #333333;}
+.mat-box1 .mat-show-box .mat-show-img:hover{transition: .1s;transform: scale(1.2);}
 
 
 .content .img-connect{background: url(../images/insideHtml/img_connect.png);width: 100%;height: 286px;}
@@ -302,6 +322,14 @@
     .qua-box1 .qua-show-box3{margin-top: 10%;}
     .qua-box1 .qua-show-box .qua-show-text{margin: 0;}
     .qua-box1 .qua-show-box .qua-show-img{width: 100%;}
+
+    .mat-box1 .mat-show-box .mat-show-title{width: 100%;}
+    .mat-box1 .mat-show-box .mat-show-div{display: none;}
+    .mat-box1 .mat-show-box .mat-show-desc{width: 100%;}
+    .mat-box1 .mat-show-box2{margin-top: 10%;}
+    .mat-box1 .mat-show-box3{margin-top: 10%;}
+    .mat-box1 .mat-show-box .mat-show-text{margin: 0;}
+    .mat-box1 .mat-show-box .mat-show-img{width: 100%;}
 
     .int-production-box .int-pro-flex-box .desc-box{width: 100%;}
     .int-production-box .int-pro-flex-box .img-box .img-black{display: none;}
