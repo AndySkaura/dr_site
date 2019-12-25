@@ -246,6 +246,7 @@
 .mat-box1{ padding: 0 10%; display: flex;flex-direction: column;justify-content: center;align-items: center;background:#131314;background-size: cover;background-repeat: no-repeat;color: white;}
 .mat-box-first{margin-top: 8%;padding: 0 15%;}
 .map-bg-red{background: url('../images/insideHtml/materialManagement/bj.png');background-size: cover;padding: 5% 10%;}
+.map-bg{background: url('../images/insideHtml/projectProgress/mapBJ.png');background-size: cover;}
 .mat-box1 .mat-show-box{width: 100%;display: flex;flex-direction: row;justify-content: space-between;align-items: center;font-size: 22px;flex-wrap: wrap;padding: 5% 0;}
 .mat-box-first .mat-show-box{padding: 0;}
 .mat-box1 .mat-show-box .mat-show-title{background-color: red;margin-top: -4%;padding: 11% 4%;width: 25%;}
@@ -340,4 +341,5 @@
     .int-production-box .int-pro-flex-box .img-box .img-box-inner img:nth-of-type(2){display: none;}
     .int-production-box .int-pro-flex-box .img-box .img-box-inner img:nth-of-type(1){opacity: 1;}
     .int-production-box .int-pro-flex-box .int-title-box{margin: 0;}
+    .map-bg-red{background: #131314;}
 }
