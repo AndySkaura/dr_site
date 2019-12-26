@@ -268,8 +268,9 @@
 .solution-inside-content{display: flex;flex-direction: column;justify-content: center;align-items: center;padding: 0 15%;margin-bottom: 10%;}
 .solution-inside-content .solution-big-title{margin: 5%;}
 .solution-inside-content .solution-desc-content .solution-little-title {font-size: 24px;}
-.solution-inside-content .solution-desc-content .solution-little-title span{position: relative;}
-.solution-inside-content .solution-desc-content .solution-little-title span:before { content: ''; display: block;opacity: 0.5; position: absolute; left: 0; bottom: 2px; height: 7px; width: 100%; background: #56e9b1;}
+.solution-inside-content .solution-desc-content .solution-little-title .inside-box{position: relative;}
+.solution-inside-content .solution-desc-content .solution-little-title .inside-box .inside-bg { content: ''; display: block; position: absolute; left: 0; bottom: 2px; height: 7px; width: 100%; background: #56e9b1;}
+.solution-inside-content .solution-desc-content .solution-little-title .inside-box .inside-text{position: relative;}
 .solution-inside-content .solution-desc-content p{font-size: 16px;margin-bottom: 2%;line-height: 33px;}
 
 .content .img-connect{background: url(../images/insideHtml/img_connect.png);width: 100%;height: 286px;}
