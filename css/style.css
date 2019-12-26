@@ -734,7 +734,8 @@ footer{position: relative;}
 .solution-content{background: #131314;}
 .solution-box{padding-bottom: 2%; margin-bottom: 5%; background: #fff;border-radius: 10px;display: flex;flex-direction: row;flex-wrap: wrap;}
 .solution-container{max-width: 1500px;}
-.solution-text-box{padding-left: 2%; width: 65%;display: flex;flex-direction: column;justify-content: space-between;}
+.solution-text-box{padding-left: 2%; width: 65%;display: flex;flex-direction: column;justify-content: space-between;position: relative;}
+.solution-text-box .linkTo{position: absolute;width: 100%;height: 100%;}
 .solution-text-box h2{text-align: left; font-weight: bold;margin: 50px 0 0 0;}
 .solution-text-box .solution-text-bottom{margin-bottom: 0; display: flex;flex-direction: row;justify-content: space-between;}
 .solution-text-box .solution-text-box-text{margin: 0; text-align: left; font-size: x-large;line-height: 40px;}
