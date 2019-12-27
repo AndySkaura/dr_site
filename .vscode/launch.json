@@ -148,6 +148,14 @@
             "file": "${workspaceRoot}/insideHtml/IntelligentConstruction/materialManagement.html",
             "webRoot": "${workspaceFolder}",
             "sourceMaps": true
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "live直播",
+            "file": "${workspaceRoot}/insideHtml/IntelligentConstruction/projectlive.html",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true
         }
     ]
 }
