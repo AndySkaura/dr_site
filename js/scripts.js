@@ -1,7 +1,7 @@
 (function ($) {
 	//ie10以下跳转到旧网站
 	if ((document.all && !window.atob) == true) {
-		window.location.href = 'http://dingruan.com/old/';
+		window.location.href = 'http://dingruan.com:11111';
 	}
 	$(document).ready(function () {
 		"use strict";

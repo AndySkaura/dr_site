@@ -7,7 +7,7 @@
 .cem-box1 .fun-title-box{background-color: red;width: 12%;margin-top: -3%;height: 500px;margin-bottom: -3%;z-index: 1;}
 .cem-box3 .fun-title-box{background-color: red; width: 15%;height: 550px;margin: -5% 5% 5% 15%;}
 .cem-box4{display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-ms-flex-direction: row;flex-direction: row;-ms-flex-wrap: wrap;flex-wrap: wrap;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;align-items: center;text-align: center;margin-top: 5%;}
-.cem-box4 div:hover img{-webkit-transform: scale(1.2);transform: scale(1.2);-webkit-transition: 0.25s;transition: 0.25s;}
+/* .cem-box4 div:hover img{-webkit-transform: scale(1.2);transform: scale(1.2);-webkit-transition: 0.25s;transition: 0.25s;} */
 .cem-box4 div{width: 623px;}
 .cem-box4 div p{font-size: 16px;text-align: center;}
 .cgm-box4 div{margin: 2%;}
@@ -16,6 +16,7 @@
 .csm-box4 div{width: auto;}
 .csm-box4 div p{padding:5% 5%;text-align: left;}
 .csm-box4 div{margin: 2%;}
+.box-shadow-img div img{box-shadow: -4px 2px 12px 3px #e8e8e8;    margin: 10% 0 5% 0;}
 
 .fun-title-box img{margin-top: 10%;margin-left: 10%;}
 .fun-title-box div p{color: white;font-size: 26px;text-align: center;}
@@ -246,8 +247,9 @@
 .int-production-box .int-pro-flex-box .int-title-box p{font-size: 25px;text-align: center;}
 .int-production-box .int-pro-flex-box .img-box .img-box-inner img:nth-of-type(1){opacity: 0;}
 
-.int-production-box .int-pro-show-box2{background-color: #131314;width: 100%;color: white;padding: 3% 0 3% 0;}
-.int-production-box .int-pro-show-box2 .desc-box{line-height: 30px;min-height: 250px;}
+.int-production-box .int-pro-show-box2{background-color: #131314;width: 100%;color: white;padding: 3% 0 5% 0;}
+.int-production-box .int-pro-show-box2 .desc-box{line-height: 30px;min-height: 250px;width: 40%;padding: 0 3%;}
+.int-production-box .int-pro-show-box2 .desc-box .desc-box-innerbox{display: flex;flex-direction: row;justify-content: center;}
 .int-production-box .int-pro-show-box3 .desc-box{line-height: 30px;min-height: 250px;}
 .int-production-box .int-pro-show-box3{padding: 3% 0 8% 0;}
 .int-production-box .int-pro-title{width: 100%;text-align: center;}
