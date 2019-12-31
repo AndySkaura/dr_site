@@ -67,7 +67,8 @@
 
 .gps-box3{display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-ms-flex-direction: row;flex-direction: row;-ms-flex-wrap: wrap;flex-wrap: wrap;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;align-items: center;margin-top: 10%;}
 .gps-box3 .img-item-box{width: 623px;border-radius: 2px;text-align: center;font-size: large;}
-.gps-box3 .img-item-box:hover img{-webkit-transform: scale(1.2);transform: scale(1.2);-webkit-transition: .25s;transition: .25s;}
+.gps-box3 .img-item-box img:hover{-webkit-transform: scale(1.2);transform: scale(1.2);-webkit-transition: .25s;transition: .25s;}
+.gps-box3 .img-item-box img{margin: 5%;box-shadow:-4px 2px 12px 3px #e8e8e8 ;}
 .gps-box3 .desc-text{padding: 5% 10%;margin-top: 5%; background-image: url('../images/insideHtml/GPSSystem/5.png');width: 100%;background-size: cover;background-position: center;background-repeat: no-repeat;}
 .gps-box3 .desc-text p{color: white;}
 .gps-box3 .bigImg{position: relative;margin-top: 10%;}
