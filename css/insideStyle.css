@@ -100,15 +100,6 @@
 100%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}
 }
 
-
-
-@keyframes pingPong
-{
-0% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
-25% {-webkit-transform: rotate(4deg);transform: rotate(4deg);}
-75% {-webkit-transform: rotate(-4deg);transform: rotate(-4deg);}
-100%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}
-}
 /* .gps-box3 .bigImg:hover{animation:pingPong 0.25s;} */
 
 /* meter*/
@@ -213,8 +204,8 @@
 .qua-box1 .qua-show-box{width: 100%;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-ms-flex-direction: row;flex-direction: row;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;-webkit-box-align: center;-ms-flex-align: center;align-items: center;font-size: 22px;-ms-flex-wrap: wrap;flex-wrap: wrap;padding: 5% 0;}
 .qua-box-first .qua-show-box{padding: 0;}
 .qua-box1 .qua-show-box .qua-show-text{min-width: 49%;}
-.qua-box1 .qua-show-box .qua-show-title{background-color: red;margin-top: -4%;padding: 11% 4%;width: 25%;}
-.qua-box1 .qua-show-box .qua-show-div{font-weight: bold;font-size: xx-large;text-align: center;padding: 1%;background-color:#af0404;color: white;}
+.qua-box1 .qua-show-box .qua-show-title{background-color: red;margin-top: -4%;padding: 11% 4%;}
+.qua-box1 .qua-show-box .qua-show-div{font-weight: bold;font-size: xx-large;text-align: center;padding: 1%;background-color:#af0404;color: white;opacity: 0.8;}
 .qua-box1 .qua-show-box .qua-show-desc{width: 25%; position: relative;}
 .qua-box1 .qua-show-box .qua-show-desc .bg-title{top:14%;position: absolute;}
 .qua-box1 .qua-show-box .qua-show-desc .bg-short-title{top:0;position: absolute;}
@@ -225,10 +216,10 @@
 .qua-show-div-right{position: relative;right: -10%;}
 .qua-show-div-top{-ms-flex-item-align: start;align-self: flex-start;}
 .qua-show-div-bottom{-ms-flex-item-align: end;align-self: flex-end;}
-.qua-box-white-bg{background: url(../images/insideHtml/projectQuality/bg.png);color: black;}
+.qua-box-white-bg{background: url(../images/insideHtml/projectQuality/bg.png);color: black;background-size: contain;background-repeat: no-repeat;background-position-x: 77%;}
 .qua-box1 p{font-size: 20px;}
-.qua-box1 .qua-show-box .qua-show-img:hover{-webkit-transition: .1s;transition: .1s;-webkit-transform: scale(1.2);transform: scale(1.2);}
-
+/* .qua-box1 .qua-show-box .qua-show-img:hover{-webkit-transition: .1s;transition: .1s;-webkit-transform: scale(1.2);transform: scale(1.2);} */
+.qua-box1 .qua-show-box .pro-circle-img img{width: 44%;}
 
 .int-production-box .color-purple{background-color: #8f6fae;}
 .int-production-box .color-green{background-color: #55e6af;}
